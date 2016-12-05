@@ -18,7 +18,7 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 %consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
-]{MastersDoctoralThesis} % The class file specifying the document structure
+]{StyleSheet} % The class file specifying the document structure
 #+END_SRC 
 
 ** Packages Used
@@ -52,12 +52,12 @@ headsepline, % Uncomment to get a line under the header
 * Thesis Information
 ** Title
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\thesistitle{Thesis Title} 
+\thesistitle{GT Pioneer} 
 % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 #+END_SRC
 ** Supervisor
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\supervisor{Dr. James \textsc{Smith}} 
+\supervisor{Dr. Raghuram \textsc{Pucha}} 
 % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 #+END_SRC
 ** Examiner
@@ -72,7 +72,7 @@ headsepline, % Uncomment to get a line under the header
 #+END_SRC
 ** Author
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\author{John \textsc{Smith}} 
+\author{Vishakh \textsc{Kumar}} 
 % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 #+END_SRC
 ** Addresses
@@ -82,30 +82,31 @@ headsepline, % Uncomment to get a line under the header
 #+END_SRC
 ** Subject
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\subject{Biological Sciences} 
+\subject{ME 1770} 
 % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 #+END_SRC
 ** Keywords
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\keywords{} 
+\keywords{Georgia Tech, Mars Rover, Pioneer} 
 % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
 #+END_SRC
 ** University
+ Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\university{\href{http://www.university.com}{University Name}}
-% Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\university{\href{http://www.gatech.edu}{Georgia Institute of Technology}}
 #+END_SRC
 ** Department
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\department{\href{http://department.university.com}{Department or School Name}}
+\department{\href{http://me.gatech.edu}{George W Woodruff School of Mechanical Engineering}}
 % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
 #+END_SRC
 ** Research Group
+Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
-\group{\href{http://researchgroup.university.com}{Research Group Name}}
-% Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\group{\href{https://github.com/vishakhkumar/ME1770}{Group X}}
 #+END_SRC
 ** Faculty
+# This needs to be removed!!
 #+BEGIN_SRC tex  :tangle yes :tangle report.tex
 \faculty{\href{http://faculty.university.com}{Faculty Name}}
 % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
@@ -152,7 +153,7 @@ headsepline, % Uncomment to get a line under the header
  \begin{minipage}[t]{0.4\textwidth}
  \begin{flushright} \large
  \emph{Supervisor:} \\
- \href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+ \href{http://www.me.gatech.edu/faculty/pucha}{\supname} % Supervisor name - remove the \href bracket to remove the link  
  \end{flushright}
  \end{minipage}\\[3cm]
  
@@ -173,7 +174,7 @@ headsepline, % Uncomment to get a line under the header
 
  #+END_SRC
 
-** Declaration Page
+** COMMENT Declaration Page
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   \begin{declaration}
   \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
@@ -198,7 +199,7 @@ headsepline, % Uncomment to get a line under the header
   \cleardoublepage
 
   #+END_SRC
-** Quotation Page
+** COMMENT Quotation Page
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   \vspace*{0.2\textheight}
 
@@ -208,6 +209,7 @@ headsepline, % Uncomment to get a line under the header
 
   #+END_SRC
 ** Abstract Page
+Must add a brief idea as to why we made this project.
   #+BEGIN_SRC tex :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	ABSTRACT PAGE
@@ -219,13 +221,13 @@ headsepline, % Uncomment to get a line under the header
   \end{abstract}
 
   #+END_SRC
-** Acknowledgements
+** COMMENT Acknowledgements
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	ACKNOWLEDGEMENTS
   %----------------------------------------------------------------------------------------
 
-  \begin{acknowledgements}  :tangle yes :tangle report.tex
+  \begin{acknowledgements}  
   \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
   The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
   \end{acknowledgements}
@@ -242,7 +244,7 @@ headsepline, % Uncomment to get a line under the header
 
   \listoftables % Prints the list of tables
   #+END_SRC
-** Abbreviations
+** COMMENT Abbreviations
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	ABBREVIATIONS
@@ -255,7 +257,7 @@ headsepline, % Uncomment to get a line under the header
 
   \end{abbreviations}
   #+END_SRC
-** Physical Constants
+** COMMENT Physical Constants
   #+BEGIN_SRC tex :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
@@ -270,7 +272,7 @@ headsepline, % Uncomment to get a line under the header
 
   \end{constants}
   #+END_SRC
-** Symbols
+** COMMENT Symbols
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	SYMBOLS
@@ -288,7 +290,7 @@ headsepline, % Uncomment to get a line under the header
 
   \end{symbols}
   #+END_SRC
-** Dedication
+** COMMENT Dedication
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	DEDICATION
