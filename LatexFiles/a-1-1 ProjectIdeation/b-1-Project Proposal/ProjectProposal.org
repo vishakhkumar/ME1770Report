@@ -71,6 +71,9 @@ This design differs from the traditional ATV because it has a improved suspensio
 \includegraphics{c-1-Images/Planetside.png}
 (Daybreak Games: Planetside 2 ANT Vehicle Concept)
 
-(\url{https://grabcad.com/library/baja-atv-1} BAJA SAE India Team)
 \includegraphics{c-1-Images/BAJA.jpeg}
+(https://grabcad.com/library/baja-atv-1 - BAJA SAE India Team)
+
+
+
 #+END_SRC
