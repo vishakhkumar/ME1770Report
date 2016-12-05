@@ -71,7 +71,7 @@ Controls & Vishakh Kumar & Hard\\
 Cockpit & Vishakh Kumar & Easy\\
 Powertrain & Asimm Hirani & Hard\\
 Charging & Vishakh Kumar & Easy \\
-Science/Storage & Auston Ferrarer & Easy\\
+Science/Storage & Auston Ferrarer & Medium\\
 Communication System & Juan Rodriguez & Medium\\
 Lighting & Justin Sackett& Easy\\
 \hline
