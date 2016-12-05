@@ -1,0 +1,9 @@
+
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
