@@ -14,17 +14,17 @@ Our product is a Mars capable ATV. We began with the idea of the standard ATV, c
 Subsystem & Description & Member\\
 \hline
 Orbital Deployment & Circular parachute and coiled spring shocks. & Vishakh Kumar\\
-Grabbers & Pivoting arm with ball socket and grabbing hands. & (S)\\
-Suspension & Coil spring shocks, double A-frame suspension and tire rods. & (H)\\
-Chassis & Triangular truss support frame. & (S)\\
-Tires & Cylindrical tires with embossed treads. & (F)\\
+Grabbers & Pivoting arm with ball socket and grabbing hands. & Justin Sackett\\
+Suspension & Coil spring shocks, double A-frame suspension and tire rods. & Asimm Hirani\\
+Chassis & Triangular truss support frame. & Juan Rodriguez\\
+Tires & Cylindrical tires with embossed treads. & Auston Ferrarer\\
 Controls & Joystick,Displays, Plexiglas encased w/ rectangular control panel. & Vishakh Kumar\\
 Cockpit & Oblong shaped cockpit & Vishakh Kumar\\
-Powertrain & Circular Motor with chain drive to rear axle with rear diff. & (H)\\
+Powertrain & Circular Motor with chain drive to rear axle with rear diff. & Asimm Hirani\\
 Charging & Rectangular solar cells on roof. & Vishakh Kumar\\
-Science/Storage & Large prismed storage area in back of ATV. & (F)\\
-Communication System & Conic Satellite Dish. & (R)\\
-Lighting & Semi-Paraboloid lights mounted on front of ATV. & (R)\\
+Science/Storage & Large prismed storage area in back of ATV. & Auston Ferrarer\\
+Communication System & Conic Satellite Dish. & Juan Rodriguez\\
+Lighting & Semi-Paraboloid lights mounted on front of ATV. & Justin Sackett\\
 \hline
 \end{tabular}
 \end{center}
@@ -39,18 +39,18 @@ Lighting & Semi-Paraboloid lights mounted on front of ATV. & (R)\\
 \hline
 Subsystem & Functionality & Complexity\\
 \hline
-Orbital Deployment & Landing Gear when ATV is dropped from orbit. & (K)\\
-Grabbers & Grabs materials for data inspection. & (S)\\
-Suspension & Absorbs shocks from planetary terrain. & (H)\\
-Chassis & Beefy frame for surviving rough conditions. & (S)\\
-Tires & Extreme grip to handle unexpected terrain. & (F)\\
-Controls & Steering, cockpit, seating, etc. & (K)\\
-Cockpit & Location of Controls & (K)\\
-Powertrain & Electric drivetrain, differential. & (H)\\
-Charging & Solar cells from roof to charge batteries behind cockpit. & (K)\\
-Science/Storage & Large storage area in back of ATV to collect data/samples. & (F)\\
-Communication System & Antenna to communicate with base. & (R)\\
-Lighting & To maintain visibility once night falls or in sandstorms. & (R)\\
+Orbital Deployment & Landing Gear when ATV is dropped from orbit. & Medium\\
+Grabbers & Grabs materials for data inspection. & Hard\\
+Suspension & Absorbs shocks from planetary terrain. & Medium\\
+Chassis & Beefy frame for surviving rough conditions. & Hard\\
+Tires & Extreme grip to handle unexpected terrain. & Easy\\
+Controls & Steering, cockpit, seating, etc. & Hard\\
+Cockpit & Location of Controls & Easy\\
+Powertrain & Electric drivetrain, differential. & Hard\\
+Charging & Solar cells from roof to charge batteries behind cockpit. & Easy\\
+Science/Storage & Large storage area in back of ATV to collect data/samples. & Easy\\
+Communication System & Antenna to communicate with base. & Medium\\
+Lighting & To maintain visibility once night falls or in sandstorms. & Easy\\
 \hline
 \end{tabular}
 \end{center}
@@ -73,7 +73,4 @@ This design differs from the traditional ATV because it has a improved suspensio
 
 \includegraphics{c-1-Images/BAJA.jpeg}
 (https://grabcad.com/library/baja-atv-1 - BAJA SAE India Team)
-
-
-
 #+END_SRC
