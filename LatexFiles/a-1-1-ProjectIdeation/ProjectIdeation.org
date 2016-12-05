@@ -19,12 +19,12 @@ Insert spiel about Project Ideation.
 * Project Proposal
 #+BEGIN_SRC tex  :tangle yes :tangle ProjectIdeation.tex
 \section{Project Proposal}
-\input{b-1-Project\ Proposal/ProjectProposal.tex}
+\input{a-1-1-ProjectIdeation/b-1-ProjectProposal/ProjectProposal.tex}
 #+END_SRC
 
 * Project Management
 #+BEGIN_SRC tex  :tangle yes :tangle ProjectIdeation.tex
 \section{Project Management}
-\input{b-1-Project\ Proposal/ProjectManagement.tex}
+\input{a-1-1-ProjectIdeation/b-1-ProjectManagement/ProjectManagement.tex}
 #+END_SRC
 

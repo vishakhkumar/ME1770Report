@@ -1,0 +1,4 @@
+
+#+BEGIN_SRC tex :tangle yes :tangle ManufacturingWorkingDrawing.txt
+
+#+END_SRC

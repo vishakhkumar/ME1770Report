@@ -1,0 +1,3 @@
+#+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
+
+#+END_SRC
