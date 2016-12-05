@@ -68,9 +68,9 @@ This design differs from the traditional ATV because it has a improved suspensio
 * Picture of Proposed System
 #+BEGIN_SRC tex  :tangle yes :tangle ProjectProposal.tex
 \subsection{Picture of  the Proposed System (or Similar System): (please include a reference if you are using pictures from internet). You can also include conceptual sketch.}
-\includegraphics{Planetside.png}
+\includegraphics{c-1-Images/Planetside.png}
 (Daybreak Games: Planetside 2 ANT Vehicle Concept)
 
 (\url{https://grabcad.com/library/baja-atv-1} BAJA SAE India Team)
-\includegraphics{BAJA.jpeg}
+\includegraphics{c-1-Images/BAJA.jpeg}
 #+END_SRC
