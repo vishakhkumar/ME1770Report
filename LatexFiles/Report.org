@@ -318,7 +318,7 @@ Must add a brief idea as to why we made this project.
   %\include{Chapters/Chapter4} 
   %\include{Chapters/Chapter5} 
   #+END_SRC
-** Appendices
+** COMMENT Appendices
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	THESIS CONTENT - APPENDICES
@@ -333,7 +333,7 @@ Must add a brief idea as to why we made this project.
   %\include{Appendices/AppendixB}
   %\include{Appendices/AppendixC}
   #+END_SRC
-** Bibliograpy
+** COMMENT Bibliograpy
   #+BEGIN_SRC tex  :tangle yes :tangle report.tex
   %----------------------------------------------------------------------------------------
   %	BIBLIOGRAPHY
