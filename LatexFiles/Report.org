@@ -314,7 +314,7 @@ Must add a brief idea as to why we made this project.
   % Include the chapters of the thesis as separate files from the Chapters folder
   % Uncomment the lines as you write the chapters
 
-  \include{a-1-1\ ProjectIdeation/ProjectIdeation.tex}
+  \include{a-1-1ProjectIdeation/ProjectIdeation.tex}
   %\include{Chapters/Chapter2} 
   %\include{Chapters/Chapter3}
   %\include{Chapters/Chapter4} 
