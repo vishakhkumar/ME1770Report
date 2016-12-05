@@ -1,0 +1,14 @@
+* Central-ps
+
+Central printing services or central-ps is printed at a central location and delivered to the Student Center Computer Cluster (2nd floor near the Music Listening Room). When you send a job to central-ps, you will receive an email saying your job has been received and a link to check on the status of your jobs: http://ops.oit.gatech.edu/central-ps/. If you did not receive an email or do not see your jobs on the website, please log into Passport to verify you typed in your correct email address. If issues persist, please contact us at: printsupport@oit.gatech.edu
+
+Current delivery times for central-ps are:
+
+M-F - 9:00am, 12:30pm, 4:30pm
+Sat & Sun - none
+Central-ps jobs can be sent from the Library Cluster machines or Library VLAB.  Jobs can also be submitted from your personally owned computer by downloading the central-ps drivers from http://central-ps.gatech.edu
+
+* Delivery Time
+The night before at 6 pm.
+
+* Print everything on your account.
