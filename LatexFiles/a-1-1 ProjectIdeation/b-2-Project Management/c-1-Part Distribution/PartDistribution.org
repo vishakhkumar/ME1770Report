@@ -6,9 +6,10 @@
 \subsubsection{Allocating subsystems among team members}
 
 An important element of team success lies in allocating tasks to team members equitably. We kept in mind two factors while allocating tasks:
-
-  - the set of tasks that has to be completed (which may be one task or it may be several) and
-  - the set of individuals (the team members) able to complete them.
+\begin{itemize}
+  \item The set of tasks that has to be completed (which may be one task or it may be several.)
+  \item The set of individuals (the team members) able to complete them.
+\end{itemize}
 
 Given each team member's skill level and complexity of the part, we assigned tasks as shown in the Project Proposal (I forgot the table number).
 
