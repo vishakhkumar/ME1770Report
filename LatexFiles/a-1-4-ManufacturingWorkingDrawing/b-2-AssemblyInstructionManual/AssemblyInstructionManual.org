@@ -1,0 +1,42 @@
+#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
+#+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* AssemblyInstructionManual
+#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
+\section{AssemblyInstructionManual}
+
+Insert spiel about AssemblyInstructionManual.
+
+#+END_SRC
+
+** Antenna
+ #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
+ \subsection{Antenna}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/Antenna.tex}
+ #+END_SRC
+
+** COMMENT Cockpit
+ #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
+ \subsection{Cockpit}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Cockpit/Cockpit.tex}
+ #+END_SRC
+
+** COMMENT Joystick
+ #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
+ \subsection{Joystick}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Joystick/Joystick.tex}
+ #+END_SRC
+
+** COMMENT MechanicalDisplay
+ #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
+ \subsection{MechanicalDisplay}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-MechanicalDisplay/MechanicalDisplay.tex}
+ #+END_SRC

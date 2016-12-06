@@ -21,7 +21,7 @@ Insert spiel about CheckForFunctionality.
  \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}
  #+END_SRC
 
-** SwivelLight
+** COMMENT SwivelLight
  #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
  \section{SwivelLight}
  \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}

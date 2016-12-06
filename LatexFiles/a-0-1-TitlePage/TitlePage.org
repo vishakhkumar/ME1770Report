@@ -1,6 +1,6 @@
 
 * TitlePage
- #+BEGIN_SRC tex :tangle yes :tangle TittlePage.tex
+ #+BEGIN_SRC tex :tangle yes :tangle TitlePage.tex
  \begin{titlepage}
  \begin{center}
 

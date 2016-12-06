@@ -1,0 +1,42 @@
+#+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
+#+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* ExplodedView
+#+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
+\section{ExplodedView}
+
+Insert spiel about ExplodedView.
+
+#+END_SRC
+
+** Antenna
+ #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
+ \subsection{Antenna}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Antenna/Antenna.tex}
+ #+END_SRC
+
+** COMMENT Cockpit
+ #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
+ \subsection{Cockpit}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Cockpit/Cockpit.tex}
+ #+END_SRC
+
+** COMMENT Joystick
+ #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
+ \subsection{Joystick}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Joystick/Joystick.tex}
+ #+END_SRC
+
+** COMMENT MechanicalDisplay
+ #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
+ \subsection{MechanicalDisplay}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-MechanicalDisplay/MechanicalDisplay.tex}
+ #+END_SRC

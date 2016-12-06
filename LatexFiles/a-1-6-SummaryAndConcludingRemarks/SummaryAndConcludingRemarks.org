@@ -18,24 +18,24 @@ Insert spiel about SummaryAndConcludingRemarks.
 ** MetObjectiveAndGoal
  #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
  \section{MetObjectiveAndGoal}
- \input{a-1-5-SummaryAndConcludingRemarks/b-1-MetObjectiveAndGoal/MetObjectiveAndGoal.tex}
+ \input{a-1-6-SummaryAndConcludingRemarks/b-1-MetObjectiveAndGoal/MetObjectiveAndGoal.tex}
  #+END_SRC
 
 ** CourseComment
  #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
  \section{CourseComment}
- \input{a-1-5-SummaryAndConcludingRemarks/b-2-CourseComment/CourseComment.tex}
+ \input{a-1-6-SummaryAndConcludingRemarks/b-2-CourseComment/CourseComment.tex}
  #+END_SRC
 
 ** TeamExperience
  #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
  \section{TeamExperience}
- \input{a-1-5-SummaryAndConcludingRemarks/b-3-TeamExperience/TeamExperience.tex}
+ \input{a-1-6-SummaryAndConcludingRemarks/b-3-TeamExperience/TeamExperience.tex}
  #+END_SRC
 
 ** CourseSuggestions
  #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
  \section{CourseSuggestions}
- \input{a-1-5-SummaryAndConcludingRemarks/b-4-CourseSuggestions/CourseSuggestions.tex}
+ \input{a-1-6-SummaryAndConcludingRemarks/b-4-CourseSuggestions/CourseSuggestions.tex}
  #+END_SRC
 

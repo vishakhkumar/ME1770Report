@@ -1,0 +1,33 @@
+#+BEGIN_SRC tex :tangle yes :tangle ProjectManagement.tex
+#+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* ProjectManagement
+#+BEGIN_SRC tex :tangle yes :tangle ProjectManagement.tex
+Insert spiel about ProjectManagement.
+#+END_SRC
+
+** PartDistribution
+ #+BEGIN_SRC tex  :tangle yes :tangle ProjectManagement.tex
+ \subsection{PartDistribution}
+ \input{a-1-1-ProjectIdeation/b-2-ProjectManagement/c-1-PartDistribution/PartDistribution.tex}
+ #+END_SRC
+
+** Planning
+ #+BEGIN_SRC tex  :tangle yes :tangle ProjectManagement.tex
+ \subsection{Planning}
+ \input{a-1-1-ProjectIdeation/b-2-ProjectManagement/c-2-Planning/Planning.tex}
+ #+END_SRC
+
+** Timeline
+ #+BEGIN_SRC tex  :tangle yes :tangle ProjectManagement.tex
+ \subsection{Timeline}
+ \input{a-1-1-ProjectIdeation/b-2-ProjectManagement/c-3-Timeline/Timeline.tex}
+ #+END_SRC
