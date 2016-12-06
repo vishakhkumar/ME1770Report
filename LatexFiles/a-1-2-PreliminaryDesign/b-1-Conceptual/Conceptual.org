@@ -4,23 +4,29 @@ Our project was fairly ambitious in that we combined two very different worlds -
 #+END_SRC
 ** Assim
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
- \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Assim/Assim.tex} 
+ 
+\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/Asimm.tex} 
+\clearpage
 #+END_SRC
 ** Auston
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Auston/Auston.tex} 
+\clearpage
 #+END_SRC
 ** Juan
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Juan/Juan.tex} 
+\clearpage
 #+END_SRC
 ** Justin
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Justin/Justin.tex} 
+\clearpage
 #+END_SRC
 ** Vishakh
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
- \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Vishakh/Vishakh.tex} 
+ \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Vishakh/Vishakh.tex}
+\clearpage 
 #+END_SRC
 
 

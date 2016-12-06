@@ -11,9 +11,9 @@
 
 * DetailDesign
 #+BEGIN_SRC tex :tangle yes :tangle DetailDesign.tex
-\chapter{DetailDesign}
+\chapter{Detail Design}
 
-Insert spiel about DetailDesign.
+Insert spiel about Detail Design.
 
 #+END_SRC
 
@@ -35,8 +35,15 @@ Insert spiel about DetailDesign.
  \input{a-1-3-DetailDesign/b-Joystick/Joystick.tex}
  #+END_SRC
 
-** MechanicalDisplay
+** Mechanical Display
  #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
  \section{MechanicalDisplay}
  \input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
  #+END_SRC
+
+** Suspension
+ #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
+ \section{Suspension}
+ \input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
+ #+END_SRC
+
