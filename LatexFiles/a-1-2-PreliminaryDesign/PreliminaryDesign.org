@@ -1,3 +1,37 @@
 #+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
+#+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* PreliminaryDesign
+#+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
+\chapter{PreliminaryDesign}
+
+Insert spiel about PreliminaryDesign.
 
 #+END_SRC
+
+** Conceptual
+ #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
+ \section{Conceptual Sketches}
+ \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Conceptual.tex}
+ #+END_SRC
+
+** Isometric
+ #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
+ \section{Isometric Sketches}
+ \input{a-1-2-PreliminaryDesign/b-2-Isometric/Isometric.tex}
+ #+END_SRC
+
+** Multiview
+ #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
+ \section{Multiview Sketches}
+ \input{a-1-2-PreliminaryDesign/b-3-Multiview/Multiview.tex}
+ #+END_SRC
+

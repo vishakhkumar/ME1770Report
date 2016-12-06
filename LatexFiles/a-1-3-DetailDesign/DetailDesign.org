@@ -1,6 +1,42 @@
-
-
-
 #+BEGIN_SRC tex :tangle yes :tangle DetailDesign.tex
+#+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* DetailDesign
+#+BEGIN_SRC tex :tangle yes :tangle DetailDesign.tex
+\chapter{DetailDesign}
+
+Insert spiel about DetailDesign.
 
 #+END_SRC
+
+** Antenna
+ #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
+ \section{Antenna}
+ \input{a-1-3-DetailDesign/b-Antenna/Antenna.tex}
+ #+END_SRC
+
+** Cockpit
+ #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
+ \section{Cockpit}
+ \input{a-1-3-DetailDesign/b-Cockpit/Cockpit.tex}
+ #+END_SRC
+
+** Joystick
+ #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
+ \section{Joystick}
+ \input{a-1-3-DetailDesign/b-Joystick/Joystick.tex}
+ #+END_SRC
+
+** MechanicalDisplay
+ #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
+ \section{MechanicalDisplay}
+ \input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
+ #+END_SRC

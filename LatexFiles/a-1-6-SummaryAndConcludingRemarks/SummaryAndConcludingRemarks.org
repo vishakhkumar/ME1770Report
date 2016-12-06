@@ -1,3 +1,41 @@
 #+BEGIN_SRC tex :tangle yes :tangle SummaryAndConcludingRemarks.tex
+#+END_SRC
 
-#+END_SRC 
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* SummaryAndConcludingRemarks
+#+BEGIN_SRC tex :tangle yes :tangle SummaryAndConcludingRemarks.tex
+\chapter{SummaryAndConcludingRemarks}
+Insert spiel about SummaryAndConcludingRemarks.
+#+END_SRC
+
+** MetObjectiveAndGoal
+ #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
+ \section{MetObjectiveAndGoal}
+ \input{a-1-5-SummaryAndConcludingRemarks/b-1-MetObjectiveAndGoal/MetObjectiveAndGoal.tex}
+ #+END_SRC
+
+** CourseComment
+ #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
+ \section{CourseComment}
+ \input{a-1-5-SummaryAndConcludingRemarks/b-2-CourseComment/CourseComment.tex}
+ #+END_SRC
+
+** TeamExperience
+ #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
+ \section{TeamExperience}
+ \input{a-1-5-SummaryAndConcludingRemarks/b-3-TeamExperience/TeamExperience.tex}
+ #+END_SRC
+
+** CourseSuggestions
+ #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
+ \section{CourseSuggestions}
+ \input{a-1-5-SummaryAndConcludingRemarks/b-4-CourseSuggestions/CourseSuggestions.tex}
+ #+END_SRC
+

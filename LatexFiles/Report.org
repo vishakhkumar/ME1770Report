@@ -29,7 +29,6 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 % Refer Bibliography Resource
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
-\usepackage{graphicx}
 #+END_SRC 
 
 ** Bibliography Resource
@@ -68,7 +67,7 @@ headsepline, % Uncomment to get a line under the header
 #+END_SRC
 ** Degree
 #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex 
-\degree{Doctor of Philosophy} 
+\degree{ME1770} 
 % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 #+END_SRC
 ** Author

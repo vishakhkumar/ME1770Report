@@ -1,3 +1,29 @@
 #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
-
 #+END_SRC
+
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* CheckForFunctionality
+#+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+\chapter{CheckForFunctionality}
+Insert spiel about CheckForFunctionality.
+#+END_SRC
+
+** SwivelLight
+ #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+ \section{SwivelLight}
+ \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}
+ #+END_SRC
+
+** SwivelLight
+ #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+ \section{SwivelLight}
+ \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}
+ #+END_SRC
+

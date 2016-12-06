@@ -1,6 +1,23 @@
 #+BEGIN_SRC tex :tangle yes :tangle MeetingMinutes.tex
-
 #+END_SRC
 
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
 
+* CheckForFunctionality
+#+BEGIN_SRC tex :tangle yes :tangle MeetingMinutes.tex
+\chapter{CheckForFunctionality}
+Insert spiel about CheckForFunctionality.
+#+END_SRC
+
+** Week1
+ #+BEGIN_SRC tex :tangle yes :tangle MeetingMinutes.tex
+ \section{Week 1}
+ \input{a-2-Appendix/b-MeetingMinutes/Week1.tex}
+ #+END_SRC
 
