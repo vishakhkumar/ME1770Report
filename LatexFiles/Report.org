@@ -45,18 +45,16 @@ headsepline, % Uncomment to get a line under the header
     \includegraphics[width=0.85\textwidth]{#1}
     \caption{#2}
 \end{sidewaysfigure}
-\clearpage
 }
 #+END_SRC
 
 #+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
 \newcommand{\drawingTwo}[2]{
-\begin{sidewaysfigure}
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.75\textwidth]{#1}
     \caption{#2}
-\end{sidewaysfigure}
-\clearpage
+\end{figure}
 }
 #+END_SRC
 * Margin Settings
