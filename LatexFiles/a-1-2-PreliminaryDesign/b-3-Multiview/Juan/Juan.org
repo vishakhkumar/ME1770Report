@@ -1,0 +1,4 @@
+#+BEGIN_SRC tex :tangle  yes :tangle Juan.tex
+\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Juan}{Rodriguez, Juan: }
+
+#+END_SRC

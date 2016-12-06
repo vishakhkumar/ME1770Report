@@ -1,0 +1,5 @@
+#+BEGIN_SRC tex :tangle  yes :tangle Assim.tex
+\drawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Assim}{Hirani, Asimm: }
+
+
+#+END_SRC
