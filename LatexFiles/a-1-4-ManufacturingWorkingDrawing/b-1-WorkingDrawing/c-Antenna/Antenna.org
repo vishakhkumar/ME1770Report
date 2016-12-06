@@ -4,7 +4,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan: Signal Bar}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_Signal_Bar.JPG}
+\includegraphics[width=0.95\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_Signal_Bar.JPG}
 \end{figure}
 #+END_SRC
 ** Swivel Bar
@@ -12,7 +12,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan: Swivel Bar}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_Swivel_link.JPG}
+\includegraphics[width=0.95\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_Swivel_link.JPG}
 \end{figure}
 #+END_SRC
 ** Antenna Assembly
@@ -20,7 +20,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan: Antenna Assembly}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_assembly.JPG}
+\includegraphics[width=0.95\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_assembly.JPG}
 \end{figure}
 #+END_SRC
 ** Antenna Base
@@ -28,7 +28,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan: Antenna Base}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_base.JPG}
+\includegraphics[width=0.95\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_base.JPG}
 \end{figure}
 #+END_SRC
 ** Antenna Exploded
@@ -36,7 +36,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan:  Antenna Exploded}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_exploded.JPG}
+\includegraphics[width=0.95\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_exploded.JPG}
 \end{figure}
 #+END_SRC
 ** Antenna Support
@@ -44,7 +44,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan:  Antenna Support}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_support.JPG}
+\includegraphics[width=0.105\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_antenna_support.JPG}
 \end{figure}
 #+END_SRC
 ** Crossbar
@@ -52,7 +52,7 @@
 \begin{figure}[h]
 \caption{Rodriguez, Juan: Crossbar}
 \centering
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_crossbar.JPG}
+\includegraphics[width=0.1155\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_crossbar.JPG}
 \end{figure}
 #+END_SRC
 ** Pin A
@@ -87,4 +87,3 @@
 \includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_receiver.JPG}
 \end{figure}
 #+END_SRC
-
