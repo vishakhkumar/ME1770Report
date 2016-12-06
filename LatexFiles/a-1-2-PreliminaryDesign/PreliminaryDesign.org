@@ -11,7 +11,7 @@
 
 * PreliminaryDesign
 #+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
-\chapter{PreliminaryDesign}
+\chapter{Preliminary Design}
 
 Insert spiel about PreliminaryDesign.
 
