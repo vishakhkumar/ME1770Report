@@ -1,5 +1,5 @@
 #+BEGIN_SRC tex :tangle  yes :tangle Assim.tex
-\drawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Assim}{Hirani, Asimm: }
+\drawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Assim/IMG_1810.JPG}{Hirani, Asimm: Suspension}
 
 
 #+END_SRC
