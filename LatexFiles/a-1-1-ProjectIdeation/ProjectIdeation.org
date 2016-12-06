@@ -1,0 +1,30 @@
+#+BEGIN_COMMENT
+\begin{figure}
+ \begin{picture}
+  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
+ \end{picture}
+\end{figure}
+#+END_COMMENT
+
+* Project Ideation
+#+BEGIN_SRC tex :tangle yes :tangle ProjectIdeation.tex
+\chapter{Project Ideation}
+
+
+Insert spiel about Project Ideation.
+
+#+END_SRC
+
+
+* Project Proposal
+#+BEGIN_SRC tex  :tangle yes :tangle ProjectIdeation.tex
+\section{Project Proposal}
+\input{a-1-1-ProjectIdeation/b-1-ProjectProposal/ProjectProposal.tex}
+#+END_SRC
+
+* Project Management
+#+BEGIN_SRC tex  :tangle yes :tangle ProjectIdeation.tex
+\section{Project Management}
+\input{a-1-1-ProjectIdeation/b-1-ProjectManagement/ProjectManagement.tex}
+#+END_SRC
+
