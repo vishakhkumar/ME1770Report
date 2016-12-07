@@ -1,8 +1,16 @@
+\AssemblyInstruction{Antenna}
+\AssemblyInstruction{Grabber}
+\AssemblyInstruction{Lights}
+\AssemblyInstruction{Suspension}
+% \AssemblyInstruction{Cockpit}
+% \AssemblyInstruction{Joystick}
+% \AssemblyInstruction{MechanicalDisplay}
 
+\section{Assembly Instruction Manual}
+While our product is unlikely to ever reach the manufacturing line, it's prudent to think about how products are manufactured and assembled in order to create functional products.
+In that spirit, we've created assembly instructions for an intrepid student to follow should s/he ever attempt building a Mars Rover.
 
-\section{AssemblyInstructionManual}
-
-Insert spiel about AssemblyInstructionManual.
-
-\subsection{Antenna}
-\input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/Antenna.tex}
+\newcommand{\AssemblyInstruction}[1]{
+ \subsection{#1}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-#1/#1.tex}
+ }
