@@ -1,0 +1,8 @@
+#+BEGIN_SRC tex  :tangle yes :tangle MetObjectiveAndGoal.tex
+
+The objective of our project was to create a functional high quality mars rover.  However, we desired to create a rover much different than the current rovers.  To do this we created a rover that was larger and had a higher impact strength.  Additionally, our rover has better vision than previous rovers used by NASA.  To accomplish this we designed a new and innovative cocpkpit that uses high performance glass which can survive in typical mars conditions.  Additionally, we used grabbers on the front for mooving debris out of the way and pick up large objects as necessary.  There is a comprehensive joystick in the cockpit that controls the grabbers and the vehicle for a full 3D range of motion.  Additionally, the science compartment is retrofitted with its own 3D printer for impromptu part creation as needed while on Mars.  Our antenna is used for long distance communication backk to earth.  All in all, we feel that we achieved out goals of a realistic rover that is a viable option to create.
+
+
+
+
+#+END_SRC
