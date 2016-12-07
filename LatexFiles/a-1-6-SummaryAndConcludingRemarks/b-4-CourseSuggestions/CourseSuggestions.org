@@ -1,0 +1,6 @@
+#+BEGIN_SRC tex  :tangle yes :tangle CourseSuggestions.tex
+
+The only suggestion we have about this project is to perhaps move the deadline for the group project a couple week prior to exam week to avoid conflicts amongst classes.  This also helps group members be at group meetings as sometimes group members need to study for another class rather than attend a meeting.
+
+
+#+END_SRC
