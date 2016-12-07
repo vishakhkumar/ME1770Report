@@ -1,16 +1,13 @@
 Our project was fairly ambitious in that we combined two very different worlds - the rough and tumble world of off-road vehicles and the pressurized environments of space vehicles. Conceptual drawings were invaluable in sketching out a basic idea of what this vehicle would look like.
 
-\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/Asimm.tex} 
-\clearpage
+\newcommand{\Conceptual}[1]{
+ \subsection{#1}
+ \input{a-1-2-PreliminaryDesign/b-1-Conceptual/#1/#1.tex} 
+ \clearpage
+}
 
-\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Auston/Auston.tex} 
-\clearpage
-
-\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Juan/Juan.tex} 
-\clearpage
-
-\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Justin/Justin.tex} 
-\clearpage
-
-\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Vishakh/Vishakh.tex}
-\clearpage
+\Conceptual{Asimm}
+\Conceptual{Auston}
+\Conceptual{Juan}
+\Conceptual{Justin}
+\Conceptual{Vishakh}

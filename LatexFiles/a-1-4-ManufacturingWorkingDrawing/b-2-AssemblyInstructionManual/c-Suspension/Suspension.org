@@ -1,3 +1,4 @@
+* Assembly Instruction Manual - Suspension
 #+BEGIN_SRC tex :tangle yes :tangle Suspension.tex
 \newcommand{\AssemblyManualSuspension}[3]{
 \subsubsection{Step #1}

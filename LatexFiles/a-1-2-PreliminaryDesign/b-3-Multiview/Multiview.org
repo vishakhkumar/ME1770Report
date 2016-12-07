@@ -1,34 +1,23 @@
-
-
 * Why Multiview drawings?
 #+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
 
-\subsection{Multiview Drawings}
 #+END_SRC
 
-** Vishakh
+** Newcommands
 #+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
-\subsubsection{Vishakh Kumar}
+\newcommand{\Multiview}[1]{
+ \subsection{#1}
+ \input{a-1-2-PreliminaryDesign/b-3-Multiview/#1/#1.tex} 
+ \clearpage
+}
 #+END_SRC
-** Justin
+** Multiview newcommands
 #+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
-\subsubsection{Justin Sackett}
+ \Multiview{Asimm}
+ \Multiview{Auston}
+ \Multiview{Juan}
+ \Multiview{Justin}
+ \Multiview{Vishakh}
 #+END_SRC
-** Assim Hirani
-#+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
-\subsubsection{Asimm Hirani}
-#+END_SRC
-** Juan
-#+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
-\subsubsection{Juan Rodriguez}
-#+END_SRC
-** Auston
-#+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
-\subsubsection{Auston Ferrarer}
-#+END_SRC
-
-* COMMENT Template
-
-
 
 

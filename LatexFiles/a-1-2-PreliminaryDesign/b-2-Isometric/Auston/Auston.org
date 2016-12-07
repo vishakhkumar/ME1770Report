@@ -1,5 +1,4 @@
+* Isometric - Auston
 #+BEGIN_SRC tex :tangle  yes :tangle Auston.tex
 \drawingThree{/a-1-2-PreliminaryDesign/b-2-Isometric/Auston}{Ferrarer, Auston: }
-
-
 #+END_SRC

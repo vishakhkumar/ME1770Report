@@ -1,20 +1,8 @@
-#+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
-#+END_SRC
-
-#+BEGIN_COMMENT
-\begin{figure}
- \begin{picture}
-  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
- \end{picture}
-\end{figure}
-#+END_COMMENT
-
 * PreliminaryDesign
 #+BEGIN_SRC tex :tangle yes :tangle PreliminaryDesign.tex
 \chapter{Preliminary Design}
-
-Insert spiel about PreliminaryDesign.
-
+Like any group of engineers,we used our intuition and napkin drawings to visualize our product before we proceded to attempt to build a Mars rover.
+Preliminary designs also helped us build a context for our group to work on.
 #+END_SRC
 
 ** Conceptual
@@ -22,7 +10,7 @@ Insert spiel about PreliminaryDesign.
  \section{Conceptual Sketches}
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Conceptual.tex}
  #+END_SRC
-
+ 
 ** Isometric
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
  \section{Isometric Sketches}

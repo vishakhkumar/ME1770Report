@@ -1,44 +1,23 @@
+* WorkingDrawings
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
+\section{Working Drawings}
+A product cannot be counted as finished unless there are plans to manufacture that product. While the plans for our product is definitely beyond the ability of a student run organization (or small countries), 
+we've added working drawings to highlight important features and dimensions of our work.
 #+END_SRC
-
-#+BEGIN_COMMENT
-\begin{figure}
- \begin{picture}
-  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
- \end{picture}
-\end{figure}
-#+END_COMMENT
-
-* WorkingDrawing
+** Newcommand used
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
-\section{WorkingDrawing}
-
-Insert spiel about DetailDesign.
-
+\newcommand{\WorkingDrawing}[1]{
+ \subsection{#1}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-#1/#1.tex}
+ }
 #+END_SRC
-
-** Antenna
- #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
- \subsection{Antenna}
-
- \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex} 
-
+** WorkingDrawingCommands
+#+BEGIN_SRC :tangle yes :tangle WorkingDrawing.tex
+\WorkingDrawing{Antenna}
+\WorkingDrawing{Chassis}
+\WorkingDrawing{Grabber}
+\WorkingDrawing{Suspension}
+% \WorkingDrawing{Cockpit}
+% \WorkingDrawing{Joystick}
+% \WorkingDrawing{MechanicalDisplay}
 #+END_SRC
-
-** COMMENT Cockpit
- #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
- \subsection{Cockpit}
- \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Cockpit/Cockpit.tex}
- #+END_SRC
-
-** COMMENT Joystick
- #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
- \subsection{Joystick}
- \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Joystick/Joystick.tex}
- #+END_SRC
-
-** COMMENT MechanicalDisplay
- #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
- \subsection{MechanicalDisplay}
- \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-MechanicalDisplay/MechanicalDisplay.tex}
- #+END_SRC
