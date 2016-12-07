@@ -1,0 +1,3 @@
+#+BEGIN_SRC tex :tangle yes :tangle Lights.tex
+\drawingTwo{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Lights/ExplodedView.JPG}{Exploded View of Light Assembly}
+#+END_SRC

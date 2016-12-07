@@ -17,24 +17,20 @@ Insert spiel about ManufacturingWorkingDrawing.
 
 ** WorkingDrawing
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex
- \section{WorkingDrawing}
  \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/WorkingDrawing.tex}
  #+END_SRC
 
 ** AssemblyInstructionManual
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex
- \section{AssemblyInstructionManual}
  \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/AssemblyInstructionManual.tex}
  #+END_SRC
 
 ** ExplodedView
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex
- \section{ExplodedView}
  \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/ExplodedView.tex}
  #+END_SRC
 
 ** PartsList
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex
- \section{PartsList}
  \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/PartsList.tex}
  #+END_SRC

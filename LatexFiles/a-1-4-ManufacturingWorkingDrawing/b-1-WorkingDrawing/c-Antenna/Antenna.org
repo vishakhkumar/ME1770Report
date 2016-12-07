@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * Antenna Photos
 #+BEGIN_SRC tex :tangle yes :tangle Antenna.tex
 \drawing{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_Signal_Bar.JPG}{Rodriguez, Juan: Signal Bar}
@@ -11,4 +12,16 @@
 \drawing{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_pin_b.JPG}{Rodriguez, Juan: Pin B}
 \drawing{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_real_antenna.JPG}{Rodriguez, Juan: Real antenna}
 \drawing{/a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Rodriguez_Juan_receiver.JPG}{Rodriguez, Juan: Receiver}
+=======
+* Grabbers
+#+BEGIN_SRC tex :tangle yes :tangle Grabbers.tex
+\newcommand{\WorkingDrawingGrabber}[2]{\drawing{/a-1-3-DetailDesign/b-Grabbers/#1}{Sackett, Justin: #2}
+\DetailDesignGrabber{BALLJOINT.JPG}{Ball Joint}
+\DetailDesignGrabber{BALLSOCKET.JPG}{Ball Socket}
+\DetailDesignGrabber{GRABBERJOINT.JPG}{Grabber Joint}
+\DetailDesignGrabber{GRABBERPIN.JPG}{Grabber Pin}
+\DetailDesignGrabber{LOWERARM.JPG}{Lower Arm}
+\DetailDesignGrabber{UPPERARM.JPG}{Upper Arm}
+\DetailDesignGrabber{UPPERPINCER.JPG}{Upper Pincer}
+>>>>>>> b26c8c7fe51429f8ced673c0452ed2308f1da92f
 #+END_SRC

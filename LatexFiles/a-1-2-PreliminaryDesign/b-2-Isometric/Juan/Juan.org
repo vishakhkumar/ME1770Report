@@ -1,0 +1,4 @@
+#+BEGIN_SRC tex :tangle  yes :tangle Juan.tex
+\drawingThree{/a-1-2-PreliminaryDesign/b-2-Isometric/Juan/20161206_022334_resized.jpg}{Rodriguez, Juan: }
+\drawingThree{/a-1-2-PreliminaryDesign/b-2-Isometric/Juan/20161206_021825_resized.jpg}{Rodriguez, Juan: }
+#+END_SRC
