@@ -9,3 +9,4 @@
 \DetailDesignGrabber{UPPERARM.JPG}{Upper Arm}
 \DetailDesignGrabber{UPPERPINCER.JPG}{Upper Pincer}
 #+END_SRC
+
