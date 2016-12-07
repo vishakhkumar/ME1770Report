@@ -1,0 +1,11 @@
+* Working Drawing - ExteriorShell
+  #+BEGIN_SRC tex :tangle yes :tangle ExteriorShell.tex
+\newcommand{\WorkingDrawingExteriorShell}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-ExteriorShell}{Ferrarer, Auston: #2}
+  
+
+\WorkingDrawingExteriorShell{FullAssemblyExplodedLineSketch.JPG}{Assembly}
+\WorkingDrawingExteriorShell{FullShell.JPG}{Full Shell}
+
+
+
+#+END_SRC

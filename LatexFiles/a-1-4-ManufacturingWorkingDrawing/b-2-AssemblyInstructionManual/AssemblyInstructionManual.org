@@ -17,6 +17,11 @@ In that spirit, we've created assembly instructions for an intrepid student to f
 \AssemblyInstructionManual{Grabber}
 \AssemblyInstructionManual{Lights}
 \AssemblyInstructionManual{Suspension}
+\AssemblyInstructionManual{3DPrinter}
+\AssemblyInstructionManual{FlexBed}
+\AssemblyInstructionManual{Helmet}
+\AssemblyInstructionManual{Hinge}
+
 % \AssemblyInstructionManual{Cockpit}
 % \AssemblyInstructionManual{Joystick}
 % \AssemblyInstructionManual{MechanicalDisplay}

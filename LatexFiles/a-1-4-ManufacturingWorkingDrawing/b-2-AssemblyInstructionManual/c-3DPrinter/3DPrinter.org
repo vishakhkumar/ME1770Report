@@ -1,0 +1,25 @@
+* Assembly Manual - 3DPrinter 
+#+BEGIN_SRC tex :tangle yes :tangle 3DPrinter.tex
+\newcommand{\AssemblyManual3DPrinter}[3]{
+\subsubsection{Step #1}
+\begin{center}
+#3
+\begin{figure}[!ht]
+\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-3DPrinter/#2}
+\caption{Rodriguez, : Assembly Step #1}
+\end{figure}
+\end{center}
+}
+#+END_SRC
+#+BEGIN_SRC tex :tangle 3DPrinter.tex
+\AssemblyManual3DPrinter{1}{step1.jpg}{
+Place titanium extrusion cylinder inside of blue vented housing.
+}
+\AssemblyManual3DPrinter{2}{step2.png}{
+Slide extrude cut ridges into red slide-bar.  They should be allowed to move freely.
+}
+\AssemblyManual3DPrinter{3}{step3.jpg}{
+Place royal blue 3D printing board into 3D printed shell by placing the four extrude cut holes on the plate into the four corresponding posts.  Then slide the sidebar into the 3D printed shell. 
+}
+
+#+END_SRC

@@ -15,35 +15,25 @@
 
 Insert spiel about Detail Design.
 
+\newcommand{\DetailDesign}[1]{
+\section{#1}
+\input{a-1-3-DetailDesign/b-#1/#1.tex}
+}
 #+END_SRC
 
-** Antenna
  #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
- \section{Antenna}
- \input{a-1-3-DetailDesign/b-Antenna/Antenna.tex}
- #+END_SRC
-
-** Cockpit
- #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
- \section{Cockpit}
- \input{a-1-3-DetailDesign/b-Cockpit/Cockpit.tex}
- #+END_SRC
-
-** Joystick
- #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
- \section{Joystick}
- \input{a-1-3-DetailDesign/b-Joystick/Joystick.tex}
- #+END_SRC
-
-** Mechanical Display
- #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
- \section{MechanicalDisplay}
- \input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
- #+END_SRC
-
-** Suspension
- #+BEGIN_SRC tex  :tangle yes :tangle DetailDesign.tex
- \section{Suspension}
- \input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
- #+END_SRC
-
+\DetailDesign{Bed}
+\DetailDesign{DoorandExterior}
+\DetailDesign{Lights}
+\DetailDesign{CabinetDoor}
+\DetailDesign{Grabbers}
+\DetailDesign{MechanicalDisplay}
+\DetailDesign{3DPrinter}
+\DetailDesign{Chassis}
+\DetailDesign{Helmet}
+\DetailDesign{Suspension}
+\DetailDesign{Antenna}
+\DetailDesign{Cockpit}
+\DetailDesign{Joystick}
+#+END_SRC
+ 

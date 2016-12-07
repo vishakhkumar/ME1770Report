@@ -1,7 +1,7 @@
 * Conceptual - Auston
 
 #+BEGIN_SRC tex :tangle  yes :tangle Auston.tex
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Auston}{Ferrarer, Auston: }
+\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Auston/Exterior.jpg}{Ferrarer, Auston: Exterior}
 
 
 #+END_SRC

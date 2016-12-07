@@ -17,6 +17,15 @@ we've added working drawings to highlight important features and dimensions of o
 \WorkingDrawing{Chassis}
 \WorkingDrawing{Grabber}
 \WorkingDrawing{Suspension}
+
+\WorkingDrawing{3DPrinter}
+\WorkingDrawing{Bed}
+\WorkingDrawing{CabinetDoor}
+\WorkingDrawing{Chassis}
+\WorkingDrawing{DoorAndHinge}
+\WorkingDrawing{ExteriorShell}
+\WorkingDrawing{Helmet}
+
 % \WorkingDrawing{Cockpit}
 % \WorkingDrawing{Joystick}
 % \WorkingDrawing{MechanicalDisplay}

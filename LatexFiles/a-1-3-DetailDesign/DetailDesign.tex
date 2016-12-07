@@ -4,17 +4,21 @@
 
 Insert spiel about Detail Design.
 
-\section{Antenna}
-\input{a-1-3-DetailDesign/b-Antenna/Antenna.tex}
+\newcommand{\DetailDesign}[1]{
+\section{#1}
+\input{a-1-3-DetailDesign/b-#1/#1.tex}
+}
 
-\section{Cockpit}
-\input{a-1-3-DetailDesign/b-Cockpit/Cockpit.tex}
-
-\section{Joystick}
-\input{a-1-3-DetailDesign/b-Joystick/Joystick.tex}
-
-\section{MechanicalDisplay}
-\input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
-
-\section{Suspension}
-\input{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplay.tex}
+\DetailDesign{Bed}
+\DetailDesign{DoorandExterior}
+\DetailDesign{Lights}
+\DetailDesign{CabinetDoor}
+\DetailDesign{Grabbers}
+\DetailDesign{MechanicalDisplay}
+\DetailDesign{3DPrinter}
+\DetailDesign{Chassis}
+\DetailDesign{Helmet}
+\DetailDesign{Suspension}
+\DetailDesign{Antenna}
+\DetailDesign{Cockpit}
+\DetailDesign{Joystick}

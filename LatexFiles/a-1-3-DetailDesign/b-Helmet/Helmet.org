@@ -1,0 +1,9 @@
+#+BEGIN_SRC tex :tangle  yes :tangle Helmet.tex
+
+\drawing{a-1-3-DetailDesign/b-Helmet/HelmetShell.JPG}{Ferrarer, Auston: Helmet Shell}
+\drawing{a-1-3-DetailDesign/b-Helmet/HelmetVisor.JPG}{Ferrarer, Auston: Helmet Visor}
+\drawing{a-1-3-DetailDesign/b-Helmet/Leftlight.JPG}{Ferrarer, Auston: Left light}
+\drawing{a-1-3-DetailDesign/b-Helmet/RightLight.JPG}{Ferrarer, Auston: Right light}
+
+#+END_SRC
+
