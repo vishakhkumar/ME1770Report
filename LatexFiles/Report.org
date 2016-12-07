@@ -39,6 +39,10 @@ headsepline, % Uncomment to get a line under the header
 
 ** Custom Commands
 #+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
+<<<<<<< HEAD
+\newcommand{\drawing}[2]{
+\clearpage
+=======
 \newcommand{\drawingThree}[2]{
 \begin{figure}[!ht]
     \centering
@@ -52,6 +56,7 @@ asas
 
 #+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
 \newcommand{\drawing}[2]{
+>>>>>>> b26c8c7fe51429f8ced673c0452ed2308f1da92f
 \begin{sidewaysfigure}
     \centering
     \includegraphics[width=0.85\textwidth]{#1}
@@ -59,6 +64,8 @@ asas
 \end{sidewaysfigure}
 }
 #+END_SRC
+<<<<<<< HEAD
+=======
 #+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
 \newcommand{\drawingTwo}[2]{
 \begin{figure}[!ht]
@@ -68,6 +75,7 @@ asas
 \end{figure}
 }
 #+END_SRC
+>>>>>>> b26c8c7fe51429f8ced673c0452ed2308f1da92f
 * Margin Settings
 #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
 \geometry{
