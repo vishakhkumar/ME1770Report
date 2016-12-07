@@ -6,18 +6,18 @@ In that spirit, we've created assembly instructions for an intrepid student to f
 #+END_SRC
 ** Newcommand used
 #+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
-\newcommand{\AssemblyInstruction}[1]{
+\newcommand{\AssemblyInstructionManual}[1]{
  \subsection{#1}
  \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-#1/#1.tex}
  }
 #+END_SRC
-** AssemblyInstructionCommands
+** AssemblyInstructionManualCommands
 #+BEGIN_SRC :tangle yes :tangle AssemblyInstructionManual.tex
-\AssemblyInstruction{Antenna}
-\AssemblyInstruction{Grabber}
-\AssemblyInstruction{Lights}
-\AssemblyInstruction{Suspension}
-% \AssemblyInstruction{Cockpit}
-% \AssemblyInstruction{Joystick}
-% \AssemblyInstruction{MechanicalDisplay}
+\AssemblyInstructionManual{Antenna}
+\AssemblyInstructionManual{Grabber}
+\AssemblyInstructionManual{Lights}
+\AssemblyInstructionManual{Suspension}
+% \AssemblyInstructionManual{Cockpit}
+% \AssemblyInstructionManual{Joystick}
+% \AssemblyInstructionManual{MechanicalDisplay}
 #+END_SRC
