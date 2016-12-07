@@ -1,42 +1,24 @@
-#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
-#+END_SRC
-
-#+BEGIN_COMMENT
-\begin{figure}
- \begin{picture}
-  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
- \end{picture}
-\end{figure}
-#+END_COMMENT
-
 * AssemblyInstructionManual
 #+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
-\section{AssemblyInstructionManual}
-
-Insert spiel about AssemblyInstructionManual.
-
+\section{Assembly Instruction Manual}
+While our product is unlikely to ever reach the manufacturing line, it's prudent to think about how products are manufactured and assembled in order to create functional products.
+In that spirit, we've created assembly instructions for an intrepid student to follow should s/he ever attempt building a Mars Rover.
 #+END_SRC
 
-** Antenna
- #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
- \subsection{Antenna}
- \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/Antenna.tex}
- #+END_SRC
-
-** COMMENT Cockpit
- #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
- \subsection{Cockpit}
- \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Cockpit/Cockpit.tex}
- #+END_SRC
-
-** COMMENT Joystick
- #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
- \subsection{Joystick}
- \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Joystick/Joystick.tex}
- #+END_SRC
-
-** COMMENT MechanicalDisplay
- #+BEGIN_SRC tex  :tangle yes :tangle AssemblyInstructionManual.tex
- \subsection{MechanicalDisplay}
- \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-MechanicalDisplay/MechanicalDisplay.tex}
- #+END_SRC
+** Newcommand used
+#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
+\newcommand{\AssemblyInstruction}[1]{
+ \subsection{#1}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-#1/#1.tex}
+ }
+#+END_SRC
+** AssemblyInstructionCommands
+#+BEGIN_SRC :tangle yes :tangle AssemblyInstructionManual.tex
+\AssemblyInstruction{Antenna}
+\AssemblyInstruction{Grabber}
+\AssemblyInstruction{Lights}
+\AssemblyInstruction{Suspension}
+% \AssemblyInstruction{Cockpit}
+% \AssemblyInstruction{Joystick}
+% \AssemblyInstruction{MechanicalDisplay}
+#+END_SRC
