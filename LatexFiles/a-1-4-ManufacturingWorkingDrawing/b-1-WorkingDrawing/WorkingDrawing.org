@@ -20,8 +20,10 @@ Insert spiel about DetailDesign.
 ** Antenna
  #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
  \subsection{Antenna}
- \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex}
- #+END_SRC
+
+ \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex} 
+
+#+END_SRC
 
 ** COMMENT Cockpit
  #+BEGIN_SRC tex  :tangle yes :tangle WorkingDrawing.tex
