@@ -1,36 +1,21 @@
-
-
-#+BEGIN_SRC tex :tangle yes :tangle Antenna.tex
-\clearpage
-\subsubsection{STEP 1}
+#+BEGIN_SRC tex :tangle yes :tangle Lights.tex
+\newcommand{\AssemblyManualLights}[3]{
+\subsubsection{Step #1}
 \begin{center}
-Insert the Swivel Link into the antenna base and check for tight fit.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step1.jpg}
+#3
+\begin{figure}[!ht]
+\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Lights/#2}
+\caption{Sackett, Justin: Assembly Step #1}
+\begin{figure}
 \end{center}
-\newline
-\subsubsection{STEP 2}
-\begin{center}
-Align the holes of the antenna support, the crossbar and then swivel link. Insert pin a.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step2.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 3}
-\begin{center}
-Align the holes of the crossbar and the signal bar. Insert pin b.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step3.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 4}
-\begin{center}
-Align the holes of the signal bar and the retriever. Insert the second pin b.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step4.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 5}
-\begin{center}
-Attach the ball and socket joint to existing assembly.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step5.jpg}
-\end{center}
-\clearpage
+}
+\AssemblyManualLights{1}{step1.jpeg}{
+Place all 11 light subassemblies on top of the 11 pre manufactured holes in the light base.
+}
+\AssemblyManualLights{2}{step2.jpeg}{
+Screw each of the 11 light screws into each of the 11 holes in order to secure the lights into the light base.
+}
+\AssemblyManualLights{3}{step3.jpeg}{
+Complete the assembly by securely fastening each screw.
+}
 #+END_SRC
-

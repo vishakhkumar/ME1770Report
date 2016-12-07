@@ -1,36 +1,31 @@
+#+BEGIN_SRC tex :tangle yes :tangle Suspension.tex
+\newcommand{\AssemblyManualSuspension}[3]{
+\subsubsection{Step #1}
+\begin{center}
+#3
+\begin{figure}[!ht]
+\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Suspension/#2}
+\caption{Hirani, Asimm: Assembly Step #1}
+\begin{figure}
+\end{center}
+}
+\AssemblyManualSuspension{1}{step1.jpeg}{
+Assemble Full Wheel by taking wheel and putting into Tire.
+}
 
+\AssemblyManualSuspension{2}{step2.jpeg}{
+Insert Hub into Wheel
+}
 
-#+BEGIN_SRC tex :tangle yes :tangle Antenna.tex
-\clearpage
-\subsubsection{STEP 1}
-\begin{center}
-Insert the Swivel Link into the antenna base and check for tight fit.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step1.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 2}
-\begin{center}
-Align the holes of the antenna support, the crossbar and then swivel link. Insert pin a.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step2.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 3}
-\begin{center}
-Align the holes of the crossbar and the signal bar. Insert pin b.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step3.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 4}
-\begin{center}
-Align the holes of the signal bar and the retriever. Insert the second pin b.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step4.jpg}
-\end{center}
-\newline
-\subsubsection{STEP 5}
-\begin{center}
-Attach the ball and socket joint to existing assembly.
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Antenna/step5.jpg}
-\end{center}
-\clearpage
+\AssemblyManualSuspension{3}{step3.jpeg}{
+Mount Brake Disk and Brake Caliper onto Hub
+}
+
+\AssemblyManualSuspension{2}{step2.jpeg}{
+Mount hub and wheel assembly onto upright
+}
+
+\AssemblyManualSuspension{2}{step2.jpeg}{
+Mount lower control arms and upper controls arms onto frame. Mount coilover onto LCA. Mount upright between control arms. Mirror assembly accross the frame. 
+}
 #+END_SRC
-
