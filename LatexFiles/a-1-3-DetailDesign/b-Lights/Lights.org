@@ -1,0 +1,9 @@
+* Lights
+#+BEGIN_SRC tex :tangle yes :tangle Lights.tex
+\newcommand{\DetailDesignLights}[2]{\drawing{/a-1-3-DetailDesign/b-Lights/#1}{Sackett, Justin: #2}
+\DetailDesignLight{LIGHTBASE.JPG}{Light Base}
+\DetailDesignLight{LIGHTSCREWS.JPG}{Light Screws}
+\DetailDesignLight{LED_Work_light_27w.JPG}{LED Work Light}
+
+#+END_SRC
+
