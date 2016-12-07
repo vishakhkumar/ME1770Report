@@ -1,31 +1,15 @@
-#+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
-#+END_SRC
-
-#+BEGIN_COMMENT
-\begin{figure}
- \begin{picture}
-  \includegraphics[scale=0.5]{Deltoidalicositetrahedron.jpg}
- \end{picture}
-\end{figure}
-#+END_COMMENT
-
 * ExplodedView
+** NewCommand
 #+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
-\clearpage
-\section{ExplodedView}
-Insert spiel about ExplodedView.
+\newcommand{\ExplodedView}[1]{
+ \subsection{#1}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-#1/#1.tex} 
+}
 #+END_SRC
-
-** Antenna
- #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
- \subsection{Antenna}
- \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Antenna/Antenna.tex} 
+** ExplodedView newcommands
+#+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
+\ExplodedView{Antenna}
+\ExplodedView{Grabber}
+\ExplodedView{Light}
+\ExplodedView{Suspension}
 #+END_SRC
-
-** Lights
- #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex
- \subsection{Lights}
- \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Lights/Lights.tex}
-#+END_SRC
-
-
