@@ -29,6 +29,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 % Refer Bibliography Resource
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage[figuresleft]{rotating}
 #+END_SRC 
 
 ** Bibliography Resource
@@ -36,6 +37,17 @@ headsepline, % Uncomment to get a line under the header
 \addbibresource{example.bib} % The filename of the bibliography
 #+END_SRC 
 
+** Custom Commands
+#+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
+\newcommand{\drawing}[2]{
+\clearpage
+\begin{sidewaysfigure}
+    \centering
+    \includegraphics[width=0.85\textwidth]{#1}
+    \caption{#2}
+\end{sidewaysfigure}
+}
+#+END_SRC
 * Margin Settings
 #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
 \geometry{

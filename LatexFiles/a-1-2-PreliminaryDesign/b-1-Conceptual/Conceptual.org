@@ -2,8 +2,6 @@
 
 * Why conceptual drawings?
 #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
-
-\section{Conceptual Drawings and their use in our project}
 Our project was fairly ambitious in that we combined two very different worlds - the rough and tumble world of off-road vehicles and the pressurized environments of space vehicles. Conceptual drawings were invaluable in sketching out a basic idea of what this vehicle would look like.
 #+END_SRC
 
