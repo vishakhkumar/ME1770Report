@@ -1,11 +1,16 @@
-* Working Drawing Suspension
+* Working Drawing - Suspension
+
 #+BEGIN_SRC tex :tangle yes :tangle Suspension.tex
-\newcommand{\WorkingDrawingSuspension}[2]{\drawing{/a-1-3-DetailDesign/b-1-WorkingDrawing/c-Suspension/#1}{Sackett, Justin: #2}
-\DetailDesignSuspension{BALLJOINT.JPG}{Ball Joint}
-\DetailDesignSuspension{BALLSOCKET.JPG}{Ball Socket}
-\DetailDesignSuspension{GRABBERJOINT.JPG}{Grabber Joint}
-\DetailDesignSuspension{GRABBERPIN.JPG}{Grabber Pin}
-\DetailDesignSuspension{LOWERARM.JPG}{Lower Arm}
-\DetailDesignSuspension{UPPERARM.JPG}{Upper Arm}
-\DetailDesignSuspension{UPPERPINCER.JPG}{Upper Pincer}
+\newcommand{\WorkingDrawingSuspension}[2]{
+\drawing{/a-1-3-DetailDesign/b-1-WorkingDrawing/c-Suspension/#1}{Hirani, Asimm: #2}
+}
+\WorkingDrawingSuspension{25ToothGear.PNG}{25 Tooth Gear}
+\WorkingDrawingSuspension{60ToothGear.PNG}{60 Tooth Gear}
+\WorkingDrawingSuspension{CenterFrame.PNG}{Center Frame}
+\WorkingDrawingSuspension{GearboxIdlerShaft.PNG}{Gearbox Idler Shaft}
+\WorkingDrawingSuspension{GearboxPlate.PNG}{Gearbox Plate}
+\WorkingDrawingSuspension{LCA.PNG}{LCA}
+\WorkingDrawingSuspension{SuspensionAssembly.PNG}{Suspension Assembly}
+\WorkingDrawingSuspension{Upright.PNG}{Upright}
+\WorkingDrawingSuspension{Wheel.PNG}{Wheel}
 #+END_SRC

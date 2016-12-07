@@ -6,6 +6,7 @@
 \DetailDesignGrabber{GRABBERJOINT.JPG}{Grabber Joint}
 \DetailDesignGrabber{GRABBERPIN.JPG}{Grabber Pin}
 \DetailDesignGrabber{LOWERARM.JPG}{Lower Arm}
-\DetailDesignGrabber{UPPERARM.JPG}{Upper Arm}
-\DetailDesignGrabber{UPPERPINCER.JPG}{Upper Pincer}
+% \DetailDesignGrabber{UPPERARM.JPG}{Upper Arm} %Crappy Drawing
+% \DetailDesignGrabber{UPPERPINCER.JPG}{Upper Pincer} %Non existent
+\DetailDesignGrabber{UPPERPINCERWORKINGDRAWING.JPG}{Upper Pincer}
 #+END_SRC
