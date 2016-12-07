@@ -47,6 +47,9 @@ headsepline, % Uncomment to get a line under the header
 \end{figure}
 }
 #+END_SRC
+
+asas
+
 #+BEGIN_SRC tex :tangle yes :tangle reportFinal.tex
 \newcommand{\drawing}[2]{
 \begin{sidewaysfigure}
