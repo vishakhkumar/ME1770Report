@@ -1,9 +1,12 @@
-* Mechanical Display
-#+BEGIN_SRC tex :tangle yes :tangle MechanicalDisplay.tex
-\newcommand{\DetailDesignMechanicalDisplay}[2]{\drawing{/a-1-3-DetailDesign/b-MechanicalDisply/#1}{Kumar, Vishakh: #2}
-\DetailDesignMechanicalDisplay{LIGHTBASE.JPG}{Light Base}
-\DetailDesignMechanicalDisplay{LIGHTSCREWS.JPG}{Light Screws}
-\DetailDesignMechanicalDisplay{LED_Work_light_27w.JPG}{LED Work Light}
+#+BEGIN_SRC tex :tangle  yes :tangle MechanicalDisplay.tex
+
+\drawing{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplayScreenShot.JPG}{Kumar, Vishakh: Mechanical Display View 1}
+
+\drawing{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplayScreenshot1.JPG}{Kumar, Vishakh: Mechanical DisplayView 2}
+
+\drawing{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplayScreenshot2.JPG}{Kumar, Vishakh: Mechanical Display View 3}
+
+\drawing{a-1-3-DetailDesign/b-MechanicalDisplay/MechanicalDisplayScreenshot3.JPG}{Kumar, Vishakh: Mechanical Display View 4}
 
 #+END_SRC
 

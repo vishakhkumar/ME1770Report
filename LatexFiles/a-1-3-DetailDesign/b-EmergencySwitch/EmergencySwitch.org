@@ -1,0 +1,8 @@
+#+BEGIN_SRC tex :tangle  yes :tangle EmergencySwitch.tex
+
+\drawing{a-1-3-DetailDesign/b-EmergencySwitch/EmergencySwitch.JPG}{Kumar, Vishakh: Emergency Switch View 1}
+
+\drawing{a-1-3-DetailDesign/b-EmergencySwitch/EmergencySwitch1.JPG}{Kumar, Vishakh: Emergency Switch View 2}
+
+#+END_SRC
+

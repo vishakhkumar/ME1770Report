@@ -12,7 +12,7 @@ In that spirit, we've created assembly instructions for an intrepid student to f
  }
 #+END_SRC
 ** AssemblyInstructionManualCommands
-#+BEGIN_SRC :tangle yes :tangle AssemblyInstructionManual.tex
+#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
 \AssemblyInstructionManual{Antenna}
 \AssemblyInstructionManual{Grabber}
 \AssemblyInstructionManual{Lights}

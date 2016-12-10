@@ -1,7 +1,7 @@
 * Conceptual - Asimm
 #+BEGIN_SRC tex :tangle  yes :tangle Asimm.tex
 % \drawing{/a-1-2-PreliminaryDesign/b-1-Conceptual/Assim}{Hirani, Asimm: }
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1809}{Hirani, Asimm: Suspension}
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1810}{Hirani, Asimm: Powertrain}
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1815}{Hirani, Asimm: Scientiic Storage}
+\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1809.JPG}{Hirani, Asimm: Suspension}
+\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1810.JPG}{Hirani, Asimm: Powertrain}
+\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Asimm/IMG_1815.JPG}{Hirani, Asimm: Scientiic Storage}
 #+END_SRC

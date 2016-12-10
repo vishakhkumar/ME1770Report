@@ -1,6 +1,6 @@
 * Working Drawing - Bed
   #+BEGIN_SRC tex :tangle yes :tangle Bed.tex
-\newcommand{\WorkingDrawingBed}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed}{Ferrarer, Auston: #2}
+\newcommand{\WorkingDrawingBed}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed/#1}{Ferrarer, Auston: #2}}
 
 \WorkingDrawingBed{ConnectingSideBracket.JPG}{Connecting Side Bracket}
 \WorkingDrawingBed{FullBed.JPG}{Full Bed}
@@ -8,3 +8,4 @@
 \WorkingDrawingBed{SlideBoltForBrackets.JPG}{Slide Bolt For Brackets}
 \WorkingDrawingBed{TopBracket.JPG}{Top Brackets}
   #+END_SRC
+  

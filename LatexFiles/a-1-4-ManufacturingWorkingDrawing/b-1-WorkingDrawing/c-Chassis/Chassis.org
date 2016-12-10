@@ -1,5 +1,4 @@
 * Working Drawing - Chassis
 #+BEGIN_SRC tex :tangle yes :tangle Chassis.tex
-\newcommand{\WorkingDrawingChassis}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis}{Rodriguez, Juan: #2}
-\DetailDesignAntenna{Rodriguez_Juan_chassis.JPG}{Chassis}
+\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis/Chassis.JPG}{Rodriguez, Juan: Chassis}
 #+END_SRC

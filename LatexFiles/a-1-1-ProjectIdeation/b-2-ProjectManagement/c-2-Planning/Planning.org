@@ -1,7 +1,0 @@
-#+BEGIN_SRC tex  :tangle yes :tangle Planning.tex
-
-To begin planning for this project we had early stage group meeting before each lab at 2 o'clock.  During these stages, we discussed the large-scale parameter of our full assembly.  By doing this, everyone was able create their parts and subassemblies to scale, so that each subassembly would fit into the final assembly.  From these initial meeting we were able to set a comfortable pace for the part and assembly development, checking in weekly on each members part progression we were able to begin working within the final assembly to ensure that our subassemblies would fit together with correct mounting points to the chassis.  For these obstacles, we met individually with Juan, who was in charge of creating mounting points for each persons sub-assembly.  By using these steps and precautions we were able to plan well enough to finish the project in a timely manner.
-
-
-
-#+END_SRC

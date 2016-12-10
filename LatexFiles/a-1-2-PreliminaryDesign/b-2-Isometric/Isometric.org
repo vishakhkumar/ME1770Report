@@ -7,16 +7,14 @@ As our product was fairly complicated, we also had the benefit of improving our 
 ** Newcommands
 #+BEGIN_SRC tex :tangle yes :tangle Isometric.tex
 \newcommand{\Isometric}[1]{
- \subsection{#1}
  \input{a-1-2-PreliminaryDesign/b-2-Isometric/#1/#1.tex} 
- \clearpage
 }
 #+END_SRC
 ** Isometric newcommands
 #+BEGIN_SRC tex :tangle yes :tangle Isometric.tex
  \Isometric{Asimm}
- \Isometric{Auston}
+% \Isometric{Auston}
  \Isometric{Juan}
- \Isometric{Justin}
- \Isometric{Vishakh}
+% \Isometric{Justin}
+% \Isometric{Vishakh}
 #+END_SRC

@@ -3,19 +3,22 @@
 \chapter{Preliminary Design}
 Like any group of engineers,we used our intuition and napkin drawings to visualize our product before we proceded to attempt to build a Mars rover.
 Preliminary designs also helped us build a context for our group to work on.
+
 #+END_SRC
 
 ** Conceptual
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
  \section{Conceptual Sketches}
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Conceptual.tex}
- #+END_SRC
+\clearpage 
+#+END_SRC
  
 ** Isometric
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
- \section{Isometric Sketches}
+ \section{Perspective Sketches}
  \input{a-1-2-PreliminaryDesign/b-2-Isometric/Isometric.tex}
- #+END_SRC
+\clearpage 
+#+END_SRC
 
 ** Multiview
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex

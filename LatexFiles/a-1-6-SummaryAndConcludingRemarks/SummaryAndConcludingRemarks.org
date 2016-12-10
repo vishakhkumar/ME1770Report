@@ -33,7 +33,7 @@ Insert spiel about SummaryAndConcludingRemarks.
  \input{a-1-6-SummaryAndConcludingRemarks/b-3-TeamExperience/TeamExperience.tex}
  #+END_SRC
 
-** CourseSuggestions
+** COMMENT CourseSuggestions
  #+BEGIN_SRC tex  :tangle yes :tangle SummaryAndConcludingRemarks.tex
  \section{Course Suggestions}
  \input{a-1-6-SummaryAndConcludingRemarks/b-4-CourseSuggestions/CourseSuggestions.tex}

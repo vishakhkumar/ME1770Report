@@ -6,7 +6,6 @@
 ** Newcommands
 #+BEGIN_SRC tex :tangle yes :tangle Multiview.tex
 \newcommand{\Multiview}[1]{
- \subsection{#1}
  \input{a-1-2-PreliminaryDesign/b-3-Multiview/#1/#1.tex} 
  \clearpage
 }
@@ -16,8 +15,8 @@
  \Multiview{Asimm}
  \Multiview{Auston}
  \Multiview{Juan}
- \Multiview{Justin}
- \Multiview{Vishakh}
+ % \Multiview{Justin}
+ % \Multiview{Vishakh}
 #+END_SRC
 
 
