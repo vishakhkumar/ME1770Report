@@ -1,0 +1,4 @@
+* Exploded View - Grabber
+#+BEGIN_SRC tex :tangle yes :tangle Grabber.tex
+\ExplodedViewDrawing{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Grabber/Grabber.JPG}{\justin Exploded View of Grabber Assembly}
+#+END_SRC

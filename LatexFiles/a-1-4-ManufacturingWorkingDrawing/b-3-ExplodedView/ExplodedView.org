@@ -5,11 +5,23 @@
  \subsection{#1}
  \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-#1/#1.tex} 
 }
+
+\newcommand{\ExplodedViewDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[height=0.85\textheight]{#1}
+    \caption{#2}
+\end{figure}
+}
+
 #+END_SRC
 ** ExplodedView newcommands
 #+BEGIN_SRC tex :tangle yes :tangle ExplodedView.tex
 \ExplodedView{Antenna}
+\clearpage
 \ExplodedView{Grabber}
+\clearpage
 \ExplodedView{Light}
+\clearpage
 \ExplodedView{Suspension}
 #+END_SRC

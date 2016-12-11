@@ -45,7 +45,7 @@ In that spirit, we've created assembly instructions for an intrepid student to f
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex
 \clearpage
 \section{Exploded View} \label{sec:ExplodedView}
- % \input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/ExplodedView.tex}
+\input{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/ExplodedView.tex}
  #+END_SRC
 
 ** PartsList

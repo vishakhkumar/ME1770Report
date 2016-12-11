@@ -1,4 +1,0 @@
-* Exploded View - Light Assembly
-#+BEGIN_SRC tex :tangle yes :tangle Lights.tex
-\drawingTwo{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Lights/Lights.JPG}{Sackett, Justin: Exploded View of Light Assembly}
-#+END_SRC

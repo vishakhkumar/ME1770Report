@@ -1,0 +1,4 @@
+* Exploded View - Light Assembly
+#+BEGIN_SRC tex :tangle yes :tangle Light.tex
+\ExplodedViewDrawing{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-Light/Lights.JPG}{\justin Exploded View of Light Assembly}
+#+END_SRC
