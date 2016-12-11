@@ -1,9 +1,4 @@
 * AssemblyInstructionManual
-#+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
-\section{Assembly Instruction Manual}
-While our product is unlikely to ever reach the manufacturing line, it's prudent to think about how products are manufactured and assembled in order to create functional products.
-In that spirit, we've created assembly instructions for an intrepid student to follow should s/he ever attempt building a Mars Rover.
-#+END_SRC
 ** Newcommand used
 #+BEGIN_SRC tex :tangle yes :tangle AssemblyInstructionManual.tex
 \newcommand{\AssemblyInstructionManual}[1]{

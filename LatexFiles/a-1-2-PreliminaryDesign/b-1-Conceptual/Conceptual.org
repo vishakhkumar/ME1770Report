@@ -1,19 +1,21 @@
-* Why conceptual drawings?
-  #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
-Our project was fairly ambitious in that we combined two very different worlds - the rough and tumble world of off-road vehicles and the pressurized environments of space vehicles. Conceptual drawings were invaluable in sketching out a basic idea of what this vehicle would look like.
-  #+END_SRC
-** Newcommands
+* Newcommands
    #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
 \newcommand{\Conceptual}[1]{
- \subsection{#1}
  \input{a-1-2-PreliminaryDesign/b-1-Conceptual/#1/#1.tex} 
 }
+\newcommand{\ConceptualDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{#1}
+    \caption{#2}
+\end{figure}
+}
    #+END_SRC
-** Conceptual newcommands
-   #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
- \Conceptual{Asimm}
- \Conceptual{Auston}
- \Conceptual{Juan}
- % \Conceptual{Justin}
- % \Conceptual{Vishakh}
-   #+END_SRC
+* Conceptual newcommands
+  #+BEGIN_SRC tex :tangle yes :tangle Conceptual.tex
+\Conceptual{Asimm}
+\Conceptual{Auston}
+\Conceptual{Juan}
+\Conceptual{Justin}
+% \Conceptual{Vishakh}
+  #+END_SRC

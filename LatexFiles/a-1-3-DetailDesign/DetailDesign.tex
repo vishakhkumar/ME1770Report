@@ -2,23 +2,44 @@
 
 \chapter{Detail Design}
 \newcommand{\DetailDesign}[1]{
+\section{#1}
 \input{a-1-3-DetailDesign/b-#1/#1.tex}
 }
 
+\newcommand{\DetailDesignDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{#1}
+    \caption{#2}
+\end{figure}
+}
+
 \DetailDesign{Seat}
+\clearpage
 \DetailDesign{Bed}
+\clearpage
 \DetailDesign{DoorandExterior}
+\clearpage
 \DetailDesign{Cockpit}
+\clearpage
 \DetailDesign{Joystick}
-% \DetailDesign{Lights}
+\clearpage
+%\DetailDesign{Lights}
+%\clearpage
 \DetailDesign{CabinetDoor}
-% \DetailDesign{Grabbers}
+\clearpage
+%\DetailDesign{Grabbers}
+%\clearpage
 \DetailDesign{EmergencySwitch}
+\clearpage
 \DetailDesign{MechanicalDisplay}
+\clearpage
 \DetailDesign{3DPrinter}
+\clearpage
 \DetailDesign{Chassis}
+\clearpage
 \DetailDesign{Helmet}
+\clearpage
 \DetailDesign{Suspension}
+\clearpage
 \DetailDesign{Antenna}
-\DetailDesign{Cockpit}
-\DetailDesign{Joystick}

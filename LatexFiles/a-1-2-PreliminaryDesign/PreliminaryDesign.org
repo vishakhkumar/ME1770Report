@@ -4,25 +4,40 @@
 Like any group of engineers,we used our intuition and napkin drawings to visualize our product before we proceded to attempt to build a Mars rover.
 Preliminary designs also helped us build a context for our group to work on.
 
+We organised our sketches into three categories.
+
+\begin{itemize}
+\item \ref{ConceptualSketch} \textbf{Conceptual Sketches} \\
+Our project was fairly ambitious in that we combined two very different worlds - the rough and tumble world of off-road vehicles and the pressurized environments of space vehicles. Conceptual drawings were invaluable in sketching out a basic idea of what this vehicle would look like. 
+
+\item \ref{PerspectiveSketch} \textbf{Perspective Sketches} \\
+After sketching out our conceptual drawings and allocating tasks between team members, we then proceded to create isometric drawings of each assembly and the top level subassemblies.
+This helped us refine our ideas about what our parts would look like and how we could improve them.
+As our product was fairly complicated, we also had the benefit of improving our drawing skills - more than a few parts had interesting features that were a challenge to draw.
+
+\item \ref{MultiviewSketch} \textbf{Multiview Sketches} \\
+The final step of our preliminary design was to sketch multiviews of each part. This was to provide initial dimensions to each part and to improve our understanding of each part. 
+\end{itemize}
 #+END_SRC
 
-** Conceptual
+** Conceptual Sketches
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
- \section{Conceptual Sketches}
- \input{a-1-2-PreliminaryDesign/b-1-Conceptual/Conceptual.tex}
-\clearpage 
+\clearpage
+\section{Conceptual Sketches} \label{ConceptualSketch}
+\input{a-1-2-PreliminaryDesign/b-1-Conceptual/Conceptual.tex} 
 #+END_SRC
  
-** Isometric
+** Isometric Sketches
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
- \section{Perspective Sketches}
- \input{a-1-2-PreliminaryDesign/b-2-Isometric/Isometric.tex}
-\clearpage 
+\clearpage
+ \section{Perspective Sketches}  \label{PerspectiveSketch}
+ \input{a-1-2-PreliminaryDesign/b-2-Isometric/Isometric.tex} 
 #+END_SRC
 
-** Multiview
+** Multiview Sketches
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
- \section{Multiview Sketches}
+\clearpage
+ \section{Multiview Sketches}  \label{MultiviewSketch}
  \input{a-1-2-PreliminaryDesign/b-3-Multiview/Multiview.tex}
 \clearpage
  #+END_SRC

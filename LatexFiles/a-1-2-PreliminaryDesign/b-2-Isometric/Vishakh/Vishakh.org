@@ -1,4 +1,4 @@
 * Isometric - Vishakh
 #+BEGIN_SRC tex :tangle  yes :tangle Vishakh.tex
-\drawingThree{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh}{Kumar, Vishakh: }
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh}{Kumar, Vishakh: }
 #+END_SRC

@@ -1,7 +1,4 @@
 #+BEGIN_SRC tex :tangle  yes :tangle CabinetDoor.tex
-
-\drawing{a-1-3-DetailDesign/b-CabinetDoor/CabinetDoor.JPG}{Ferrarer, Auston: Cabinet Door}
-
-
+\DetailDesignDrawing{a-1-3-DetailDesign/b-CabinetDoor/CabinetDoor.JPG}{\auston Cabinet Door}
 #+END_SRC
 

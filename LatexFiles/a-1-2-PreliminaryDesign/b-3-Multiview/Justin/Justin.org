@@ -1,7 +1,4 @@
 #+BEGIN_SRC tex :tangle  yes :tangle Justin.tex
-\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Justin}{Sackett, Justin: }
-
-
 \drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Justin/IMG_1554.JPG}{Sackett, Justin: }
 \drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Justin/IMG_1555.JPG}{Sackett, Justin: }
 \drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Justin/IMG_1556.JPG}{Sackett, Justin: }

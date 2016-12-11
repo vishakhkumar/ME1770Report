@@ -1,6 +1,6 @@
 #+BEGIN_SRC tex :tangle  yes :tangle Auston.tex
-\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/3DPrinter.jpg}{Ferrarer, Auston: 3D Printer}
-\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/Bed.jpg}{Ferrarer, Auston: Bed}
-\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/Helmet.jpg}{Ferrarer, Auston: Helmet}
-\drawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/RearHatch.jpg}{Ferrarer, Auston: Rear Hatch}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/3DPrinter.jpg}{\auston 3D Printer}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/Bed.jpg}{\auston Bed}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/Helmet.jpg}{\auston Helmet}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-3-Multiview/Auston/RearHatch.jpg}{\auston Rear Hatch}
 #+END_SRC

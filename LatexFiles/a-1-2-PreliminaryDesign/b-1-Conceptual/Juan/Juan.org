@@ -1,5 +1,5 @@
-* Conceptual - Juan
+* TODO Conceptual - Juan
 
 #+BEGIN_SRC tex :tangle  yes :tangle Juan.tex
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Juan/IMG_1816.JPG}{Rodriguez, Juan: Overview}
+\ConceptualDrawing{/a-1-2-PreliminaryDesign/b-1-Conceptual/Juan/IMG_1816.JPG}{\juan Overview}
 #+END_SRC

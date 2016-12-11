@@ -1,7 +1,7 @@
 * Conceptual - Justin
 
 #+BEGIN_SRC tex :tangle  yes :tangle Justin.tex
-\drawingThree{/a-1-2-PreliminaryDesign/b-1-Conceptual/Assim}{Sackett, Justin: }
-
-
+\ConceptualDrawing{/a-1-2-PreliminaryDesign/b-1-Conceptual/Justin/img1.JPG}{\justin Grabber}
+\ConceptualDrawing{/a-1-2-PreliminaryDesign/b-1-Conceptual/Justin/img2.JPG}{\justin Lights}
+\ConceptualDrawing{/a-1-2-PreliminaryDesign/b-1-Conceptual/Justin/img3.JPG}{\justin Light Assembly}
 #+END_SRC

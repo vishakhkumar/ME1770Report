@@ -1,4 +1,4 @@
 * Isometric - Justin
 #+BEGIN_SRC tex :tangle  yes :tangle Justin.tex
-\drawingThree{/a-1-2-PreliminaryDesign/b-2-Isometric/Justin}{Sackett, Justin: }
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Justin}{Sackett, Justin: }
 #+END_SRC

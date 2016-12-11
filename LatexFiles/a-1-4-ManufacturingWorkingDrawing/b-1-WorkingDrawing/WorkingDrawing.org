@@ -1,70 +1,57 @@
 * WorkingDrawings
-#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
-\section{Working Drawings}
-A product cannot be counted as finished unless there are plans to manufacture that product. While the plans for our product is definitely beyond the ability of a student run organization (or small countries), 
-we've added working drawings to highlight important features and dimensions of our work.
-#+END_SRC
+
 ** Newcommand used
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
+\newcommand{\WorkingDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[angle=90,width=\textwidth]{#1}
+    \caption{#2}
+\end{figure}
+}
+
 #+END_SRC
-** WorkingDrawingCommands
-*** Antenna
+** Working Drawing Commands
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
- \subsection{Joystick} 
+\clearpage
+\subsection{Joystick} \label{sec:WorkingDrawingJoystick}
 \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Joystick/JoyStick.tex}
-
- \subsection{EmergencySwitch} 
+\clearpage
+\subsection{Emergency Switch} \label{sec:WorkingDrawingEmergencySwitch}
 \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-EmergencySwitch/EmergencyStop.tex}
-
- \subsection{Seat} 
-\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Seat/SeatDrawing.tex}
-
- \subsection{Antenna} 
-%\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex}
-\newcommand{\WorkingDrawingAntenna}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/#1}{Rodriguez, Juan: #2}}
-\WorkingDrawingAntenna{Rodriguez_Juan_Signal_Bar.JPG}{Signal Bar}
-\WorkingDrawingAntenna{Rodriguez_Juan_Swivel_link.JPG}{Swivel Link}
-\WorkingDrawingAntenna{Rodriguez_Juan_antenna_assembly.JPG}{Antenna Assembly}
-\WorkingDrawingAntenna{Rodriguez_Juan_antenna_base.JPG}{Antenna Base}
-\WorkingDrawingAntenna{Rodriguez_Juan_antenna_exploded.JPG}{Antenna Exploded}
-\WorkingDrawingAntenna{Rodriguez_Juan_antenna_support.JPG}{Antenna Support}
-\WorkingDrawingAntenna{Rodriguez_Juan_crossbar.JPG}{Crossbar}
-\WorkingDrawingAntenna{Rodriguez_Juan_pin_a.JPG}{Pin A}
-\WorkingDrawingAntenna{Rodriguez_Juan_pin_b.JPG}{Pin B}
-\WorkingDrawingAntenna{Rodriguez_Juan_real_antenna.JPG}{Real Antenna}
-\WorkingDrawingAntenna{Rodriguez_Juan_receiver.JPG}{Receiver}
-#+END_SRC
-*** Chassis
-#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
-% \subsection{Chassis}
-%\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis/Chassis.JPG}{Rodriguez, Juan: Chassis}
-\subsection{CabinetDrawer} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-CabinetDrawer/CabinetDrawer.tex}
-%\subsection{Chassis} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis/Chassis.tex}
- \subsection{DoorAndHinge} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-DoorAndHinge/DoorAndHinge.tex}
- \subsection{ExteriorShell} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-ExteriorShell/ExteriorShell.tex}
- \subsection{Helmet} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Helmet/Helmet.tex}
- \subsection{Grabber} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Grabber/Grabber.tex}
-
-
-#+END_SRC
-#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
- \subsection{Suspension} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Suspension/Suspension.tex}
-#+END_SRC
-#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
- % \subsection{3DPrinter} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-3DPrinter/3DPrinter.tex}
-#+END_SRC
-#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
- \subsection{Bed} 
-%\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed/Bed.tex}
-#+END_SRC
-
-#+BEGIN_SRC tex :tangle yes :tangle Bed.tex
-\newcommand{\WorkingDrawingBed}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed/#1}{Ferrarer, Auston: #2}}
-\WorkingDrawingBed{ConnectingSideBracket.JPG}{Connecting Side Bracket}
-\WorkingDrawingBed{FullBed.JPG}{Full Bed}
-\WorkingDrawingBed{Mattress.JPG}{Mattress}
-\WorkingDrawingBed{SlideBoltForBrackets.JPG}{Slide Bolt For Brackets}
-\WorkingDrawingBed{TopBracket.JPG}{Top Brackets}
+\clearpage
+\subsection{Seat} \label{sec:WorkingDrawingSeat}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Seat/Seat.tex}
+\clearpage
+\subsection{Antenna} \label{sec:WorkingDrawingAntenna}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex}
+\clearpage
+\subsection{Chassis} \label{sec:WorkingDrawingChassis}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis/Chassis.tex}
+\clearpage
+\subsection{Cabinet Drawer} \label{sec:WorkingDrawingCabinetDrawer}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-CabinetDrawer/CabinetDrawer.tex}
+\clearpage
+\subsection{Door and Hinge} \label{sec:WorkingDrawingDoorAndHinge}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-DoorAndHinge/DoorAndHinge.tex}
+\clearpage
+\subsection{Exterior Shell} \label{sec:WorkingDrawingExteriorShell}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-ExteriorShell/ExteriorShell.tex}
+\clearpage
+\subsection{Helmet} \label{sec:WorkingDrawingHelmet}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Helmet/Helmet.tex}
+\clearpage
+\subsection{Grabber} \label{sec:WorkingDrawingGrabber}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Grabber/Grabber.tex}
+\clearpage
+\subsection{Suspension} \label{sec:WorkingDrawingSuspension}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Suspension/Suspension.tex}
+\clearpage
+\subsection{3D Printer} \label{sec:WorkingDrawing3DPrinter}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-3DPrinter/3DPrinter.tex}
+\clearpage
+\subsection{Bed} \label{sec:WorkingDrawingBed}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed/Bed.tex}
   #+END_SRC
 *** Cabinet Drawer  
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex

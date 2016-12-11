@@ -1,6 +1,4 @@
 * Working Drawing - EmergencyStop
   #+BEGIN_SRC tex :tangle yes :tangle EmergencyStop.tex
-\newcommand{\WorkingEmergencyStop}[2]{\drawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-EmergencySwitch/#1}{Kumar, Vishakh: #2}}
-
-\WorkingDrawingEmergencyStop{EmergencyStop.JPG}{Helmet Full Assembly}
+\WorkingDrawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-EmergencySwitch/EmergencyStop.JPG}{\vishakh Emergency Switch}
   #+END_SRC
