@@ -1,22 +1,9 @@
 * Assembly Manual - Helmet
-#+BEGIN_SRC tex :tangle yes :tangle Helmet.tex
-\newcommand{\AssemblyManual3DPrinter}[3]{
-\subsubsection{Step #1}
-\begin{center}
-#3
-\begin{figure}[!ht]
-\includegraphics[width=0.85\textwidth]{/a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Helmet/#2}
-\caption{Ferrarer, Auston: Assembly Step #1}
-\end{figure}
-\end{center}
-}
-#+END_SRC
 #+BEGIN_SRC tex :tangle Helmet.tex
-\AssemblyManualHelmet{1}{step1.jpeg}{
-Insert the Swivel Link into the antenna base and check for tight fit.
-}
-\AssemblyManualHelmet{2}{step2.jpeg}{
+\AssemblyManualStepTwo{1}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Helmet/step1.png}{
+Press fit the acrylic visor into the shell of the Mars helmet.
+}{\auston Assembly Step 1}
+\AssemblyManualStepTwo{2}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Helmet/step2.png}{
 Insert the black side lights into the press-fit whole in the side of the helmet.
-}
-
+}{\auston Assembly Step 2}
 #+END_SRC

@@ -38,7 +38,7 @@ In that spirit, we've created assembly instructions for an intrepid student to f
  #+BEGIN_SRC tex  :tangle yes :tangle ManufacturingWorkingDrawing.tex 
 \clearpage
  \section{Assembly Instruction Manual} \label{sec:AssemblyInstructionManual}
- %\input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/AssemblyInstructionManual.tex}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/AssemblyInstructionManual.tex}
  #+END_SRC
 
 ** ExplodedView

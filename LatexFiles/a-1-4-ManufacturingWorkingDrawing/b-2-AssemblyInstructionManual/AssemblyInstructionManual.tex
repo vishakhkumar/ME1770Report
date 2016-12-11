@@ -3,13 +3,46 @@
  \input{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-#1/#1.tex}
  }
 
+
+\newcommand{\AssemblyManualStep}[4]{
+\subsubsection{Step #1}
+\begin{center}
+#3
+\begin{figure}[!ht]
+\centering
+\includegraphics[height=0.70\textheight]{#2}
+\caption{#4}
+\end{figure}
+\end{center}
+\clearpage
+}
+
+\newcommand{\AssemblyManualStepTwo}[4]{
+\subsubsection{Step #1}
+\begin{center}
+#3
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.80\textwidth]{#2}
+\caption{#4}
+\end{figure}
+\end{center}
+}
+
 \AssemblyInstructionManual{Antenna}
+\clearpage
 \AssemblyInstructionManual{Grabber}
+\clearpage
 \AssemblyInstructionManual{Lights}
+\clearpage
 \AssemblyInstructionManual{Suspension}
+\clearpage
 \AssemblyInstructionManual{3DPrinter}
+\clearpage
 \AssemblyInstructionManual{FlexBed}
+\clearpage
 \AssemblyInstructionManual{Helmet}
+\clearpage
 \AssemblyInstructionManual{Hinge}
 
 % \AssemblyInstructionManual{Cockpit}
