@@ -24,5 +24,6 @@ Preliminary designs also helped us build a context for our group to work on.
  #+BEGIN_SRC tex  :tangle yes :tangle PreliminaryDesign.tex
  \section{Multiview Sketches}
  \input{a-1-2-PreliminaryDesign/b-3-Multiview/Multiview.tex}
+\clearpage
  #+END_SRC
 

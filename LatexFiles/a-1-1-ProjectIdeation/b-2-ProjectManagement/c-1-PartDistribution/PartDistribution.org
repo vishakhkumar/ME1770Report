@@ -11,12 +11,8 @@ An important element of team success lies in allocating tasks to team members eq
   \item The set of individuals (the team members) able to complete them.
 \end{itemize}
 
-Given each team member's skill level and complexity of the part, we assigned tasks as shown in the Project Proposal (I forgot the table number).
+Given each team member's skill level and complexity of the part, we assigned tasks as shown in the table \ref{tab:allocation}
 
-Further description
-
+Further notes:
 Since the cockpit and the controls were interrelated task, it was decided to allocate both tasks to the same person.
-
-This probably should be filled out more.
-
 #+END_SRC

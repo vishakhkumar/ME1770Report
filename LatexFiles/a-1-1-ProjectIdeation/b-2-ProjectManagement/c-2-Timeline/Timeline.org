@@ -1,5 +1,12 @@
 #+BEGIN_SRC tex  :tangle yes :tangle Timeline.tex
+Planning our project was simple using Gantt chart created in an Excel sheet. We opted to finish our tasks earlier than suggested by the Gantt chart provided to us by our instructor due to our experience with Solidworks and inreased workload at the end of the semester from other subjects. 
+We've included an image of our Gantt chart in the figure \ref{fig:GanttChart} on page \pageref{fig:GanttChart}.\\
+ A detailed view of our timeline can be found at \url{https://github.com/vishakhkumar/ME1770}
 
-Insert spiel about Timeline.
-
+\begin{figure}[!ht]
+\centering
+\includegraphics[angle=90,height=\textheight]{a-1-1-ProjectIdeation/b-2-ProjectManagement/Timeline.png}
+\caption{Gantt Chart}
+\label{fig:GanttChart}
+\end{figure}
 #+END_SRC
