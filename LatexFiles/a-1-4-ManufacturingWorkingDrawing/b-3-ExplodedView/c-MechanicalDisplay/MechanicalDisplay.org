@@ -1,0 +1,4 @@
+* Exploded View - Mechanical Display
+#+BEGIN_SRC tex :tangle yes :tangle MechanicalDisplay.tex
+\ExplodedViewDrawing{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-MechanicalDisplay/Mech.JPG}{\vishakh Exploded View of Mechanical Display}
+#+END_SRC

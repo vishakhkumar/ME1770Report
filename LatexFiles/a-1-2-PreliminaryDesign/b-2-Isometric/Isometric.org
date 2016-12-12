@@ -18,5 +18,5 @@
  \Isometric{Auston}
  \Isometric{Juan}
 % \Isometric{Justin}
-% \Isometric{Vishakh}
+ \Isometric{Vishakh}
 #+END_SRC

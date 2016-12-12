@@ -5,17 +5,22 @@
  \begin{center}
 
  \vspace*{.06\textheight}
- {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+ {\scshape\LARGE \univname\par}\vspace{0.1cm} % University name
  \textsc{\Large Project Report}\\[0.5cm] % Thesis type
-
  \HRule \\[0.4cm] % Horizontal line
  {\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
  \HRule \\[1.5cm] % Horizontal line
- 
+
  \begin{minipage}[t]{0.4\textwidth}
  \begin{flushleft} \large
  \emph{Author:}\\
- \href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
+ {
+Vishakh \textsc{Kumar} \\
+Auston \textsc{Ferrarer}  \\
+Asimm \textsc{Hirani}  \\
+Juan \textsc{Rodriguez}  \\
+Justin \textsc{Sackett}  \\
+} % Author name - remove the \href bracket to remove the link
  \end{flushleft}
  \end{minipage}
  \begin{minipage}[t]{0.4\textwidth}
@@ -23,21 +28,14 @@
  \emph{Instructor:} \\
  \href{http://www.me.gatech.edu/faculty/pucha}{\supname} % Supervisor name - remove the \href bracket to remove the link  
  \end{flushright}
- \end{minipage}\\[3cm]
- 
- \vfill
-
+ \end{minipage}\\[1cm]
+\begin{figure}[!ht] 
+\centering
+\includegraphics[width=0.95\textwidth]{a-0-1-TitlePage/FinalRender.JPG}
+\end{figure}
  \large \textit{A report submitted in fulfillment of the requirements\\ for the team project of ME 1770}\\[0.3cm] % University requirement text
- \textit{in the}\\[0.4cm]
- \groupname\\\deptname\\[2cm] % Research group name and department name
- 
- \vfill
 
- {\large \today}\\[4cm] % Date
- %\includegraphics{Logo} % University/department logo - uncomment to place it
- 
- \vfill
  \end{center}
  \end{titlepage}
-
+\clearpage
  #+END_SRC

@@ -11,19 +11,47 @@
 
 * CheckForFunctionality
 #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
-\chapter{CheckForFunctionality}
-Insert spiel about CheckForFunctionality.
+\chapter{Check For Functionality}
+We shown how a few parts in our product can move, save for the obvious parts like wheels.
+#+END_SRC
+** Commands
+#+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+\newcommand{\FunctionalComparison}[3]{
+     \begin{table}[!h]
+     \begin{center}
+     \begin{tabular}{ r l }
+      \includegraphics[width=0.3\textwidth]{#1} && \includegraphics[width=0.3\textwidth]{#2} \\
+     \end{tabular}
+     \caption{#3}
+     \end{center}
+     \end{table}
+}
+#+END_SRC
+** MechanicalDial
+ #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+ \section{Mechanical Display}
+ \input{a-1-5-CheckForFunctionality/b-MechanicalDial/MechanicalDial.tex}
+\clearpage 
+#+END_SRC
+** Antenna
+ #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+ \section{Antenna}
+ \input{a-1-5-CheckForFunctionality/b-Antenna/Antenna.tex}
+\clearpage
 #+END_SRC
 
-** SwivelLight
+** Grabbers
  #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
- \section{SwivelLight}
- \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}
+ \section{Grabbers}
+ \input{a-1-5-CheckForFunctionality/b-Grabbers/Grabbers.tex}
+\clearpage
+#+END_SRC
+
+
+** EmergencyButton
+ #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
+ \section{Emergency Button}
+ \input{a-1-5-CheckForFunctionality/b-EmergencyButton/EmergencyButton.tex}
  #+END_SRC
 
-** COMMENT SwivelLight
- #+BEGIN_SRC tex :tangle yes :tangle CheckForFunctionality.tex
- \section{SwivelLight}
- \input{a-1-5-CheckForFunctionality/b-SwivelLight/SwivelLight.tex}
- #+END_SRC
 

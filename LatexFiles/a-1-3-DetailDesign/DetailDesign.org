@@ -37,6 +37,8 @@
 \clearpage
 \DetailDesign{Joystick}
 \clearpage
+\DetailDesign{Dial}
+\clearpage
 %\DetailDesign{Lights}
 %\clearpage
 \DetailDesign{CabinetDoor}

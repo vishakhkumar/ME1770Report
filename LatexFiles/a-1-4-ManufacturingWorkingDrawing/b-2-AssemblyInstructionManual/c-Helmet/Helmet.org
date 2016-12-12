@@ -3,6 +3,7 @@
 \AssemblyManualStepTwo{1}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Helmet/step1.png}{
 Press fit the acrylic visor into the shell of the Mars helmet.
 }{\auston Assembly Step 1}
+\clearpage
 \AssemblyManualStepTwo{2}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Helmet/step2.png}{
 Insert the black side lights into the press-fit whole in the side of the helmet.
 }{\auston Assembly Step 2}

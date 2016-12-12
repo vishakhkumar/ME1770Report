@@ -1,4 +1,8 @@
 * Isometric - Vishakh
 #+BEGIN_SRC tex :tangle  yes :tangle Vishakh.tex
-\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh}{Kumar, Vishakh: }
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh/cockpit.JPG}{\vishakh Cockpit}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh/seat.JPG}{\vishakh Seat}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh/joystick.JPG}{\vishakh Joystick}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh/emergency.JPG}{\vishakh Emergency}
+\IsometricDrawing{/a-1-2-PreliminaryDesign/b-2-Isometric/Vishakh/dial.JPG}{\vishakh Mechanical Dials}
 #+END_SRC

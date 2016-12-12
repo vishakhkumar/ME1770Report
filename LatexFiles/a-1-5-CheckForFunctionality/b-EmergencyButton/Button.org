@@ -1,0 +1,6 @@
+#+BEGIN_SRC tex :tangle yes :tangle EmergencyButton.tex
+\FunctionalComparison{a-1-5-CheckForFunctionality/b-EmergencyButton/c-Images/ButtonA.png}{a-1-5-CheckForFunctionality/b-EmergencyButton/c-Images/ButtonB.png}{\vishakh Emergency Button}
+The top of the emergency Button can move up and down. This serves as a mechanical way for the astronaut to shut down any system should the need arise.
+#+END_SRC
+
+

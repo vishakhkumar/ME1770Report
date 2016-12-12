@@ -1,0 +1,4 @@
+* Working Drawing - MechanicalDisplay
+#+BEGIN_SRC tex :tangle yes :tangle MechanicalDisplay.tex
+\WorkingDrawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-MechanicalDisplay/MechanicalDisplay.JPG}{\vishakh Mechanical Display}
+#+END_SRC

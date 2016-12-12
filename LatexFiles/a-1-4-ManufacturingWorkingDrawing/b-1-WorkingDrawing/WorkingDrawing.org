@@ -5,7 +5,7 @@
 \newcommand{\WorkingDrawing}[2]{
 \begin{figure}[!ht]
     \centering
-    \includegraphics[angle=90,width=\textwidth]{#1}
+    \includegraphics[height=0.85\textheight]{#1}
     \caption{#2}
 \end{figure}
 }
@@ -13,7 +13,6 @@
 #+END_SRC
 ** Working Drawing Commands
 #+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
-\clearpage
 \subsection{Joystick} \label{sec:WorkingDrawingJoystick}
 \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Joystick/JoyStick.tex}
 \clearpage
@@ -22,6 +21,9 @@
 \clearpage
 \subsection{Seat} \label{sec:WorkingDrawingSeat}
 \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Seat/Seat.tex}
+\clearpage
+\subsection{Mechanical Display} \label{sec:WorkingDrawingMechanicalDisplay}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-MechanicalDisplay/MechanicalDisplay.tex}
 \clearpage
 \subsection{Antenna} \label{sec:WorkingDrawingAntenna}
 \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex}

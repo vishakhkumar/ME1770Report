@@ -1,0 +1,4 @@
+* Working Drawing - Dial
+#+BEGIN_SRC tex :tangle yes :tangle Dial.tex
+\WorkingDrawing{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Dial/DialWorkingDrawing.JPG}{\vishakh Dial}
+#+END_SRC

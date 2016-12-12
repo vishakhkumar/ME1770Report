@@ -11,8 +11,8 @@ english, % ngerman for German
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
-%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
-%toctotoc, % Uncomment to add the main table of contents to the table of contents
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+toctotoc, % Uncomment to add the main table of contents to the table of contents
 %parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
 headsepline, % Uncomment to get a line under the header
@@ -29,7 +29,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 % Refer Bibliography Resource
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
-\usepackage[figuresleft]{rotating}
+%\usepackage[figuresleft]{rotating}
+\usepackage{tabularx,ragged2e,booktabs}
 \usepackage{placeins}
 #+END_SRC 
 
@@ -89,7 +90,7 @@ headsepline, % Uncomment to get a line under the header
 ** Document Information
 *** Title
  #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
- \thesistitle{GT Pioneer} 
+ \thesistitle{Mars ATV} 
  % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
  #+END_SRC
 *** Supervisor
@@ -109,7 +110,13 @@ headsepline, % Uncomment to get a line under the header
  #+END_SRC
 *** Author
  #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
- \author{Vishakh \textsc{Kumar}} 
+ \author{
+Vishakh \textsc{Kumar} \\
+Auston \textsc{Ferrarer}  \\
+Asimm \textsc{Hirani}  \\
+Juan \textsc{Rodriguez}  \\
+Justin \textsc{Sackett}  \\
+} 
  % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
  #+END_SRC
 *** Addresses
@@ -230,7 +237,7 @@ Must add a brief idea as to why we made this project.
   The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
   \end{acknowledgements}
   #+END_SRC
-** COMMENT List of contents/figures/tables
+** List of contents/figures/tables
   #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
   %----------------------------------------------------------------------------------------
   %	LIST OF CONTENTS/FIGURES/TABLES PAGES
@@ -240,7 +247,7 @@ Must add a brief idea as to why we made this project.
 
   \listoffigures % Prints the list of figures
 
-  \listoftables % Prints the list of tables
+  % \listoftables
   #+END_SRC
 ** COMMENT Abbreviations
   #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
@@ -303,17 +310,17 @@ Must add a brief idea as to why we made this project.
   #+END_SRC
 ** Sections
   #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
-%\input{a-1-1-ProjectIdeation/ProjectIdeation.tex}
-%\input{a-1-2-PreliminaryDesign/PreliminaryDesign.tex}
-%\input{a-1-3-DetailDesign/DetailDesign.tex}
+\input{a-1-1-ProjectIdeation/ProjectIdeation.tex}
+\input{a-1-2-PreliminaryDesign/PreliminaryDesign.tex}
+\input{a-1-3-DetailDesign/DetailDesign.tex}
 \input{a-1-4-ManufacturingWorkingDrawing/ManufacturingWorkingDrawing.tex} 
-%\input{a-1-5-CheckForFunctionality/CheckForFunctionality.tex}
-%\input{a-1-6-SummaryAndConcludingRemarks/SummaryAndConcludingRemarks.tex}
+\input{a-1-5-CheckForFunctionality/CheckForFunctionality.tex}
+\input{a-1-6-SummaryAndConcludingRemarks/SummaryAndConcludingRemarks.tex}
   #+END_SRC
 ** Appendices
   #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex
   \appendix
-%  \input{a-2-Appendix/b-MeetingMinutes/MeetingMinutes.tex}
+  \input{a-2-Appendix/b-MeetingMinutes/MeetingMinutes.tex}
   #+END_SRC
 ** COMMENT Bibliograpy
   #+BEGIN_SRC tex  :tangle yes :tangle reportFinal.tex

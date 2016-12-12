@@ -1,0 +1,4 @@
+* Exploded View - Emergency Button
+#+BEGIN_SRC tex :tangle yes :tangle EmergencyButton.tex
+\ExplodedViewDrawing{a-1-4-ManufacturingWorkingDrawing/b-3-ExplodedView/c-EmergencyButton/EmergencyButton.JPG}{\vishakh Exploded View of Emergency Button}
+#+END_SRC

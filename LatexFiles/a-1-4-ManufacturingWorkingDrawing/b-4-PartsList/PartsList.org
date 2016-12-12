@@ -1,9 +1,49 @@
 * PartsList
+
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+\newcommand{\PartListDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[height=0.85\textheight]{#1}
+    \caption{#2}
+\end{figure}
+}
+
+ #+END_SRC
 ** Antenna
  #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
  \subsection{Antenna}
  \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-Antenna/Antenna.tex}
  #+END_SRC
+** Lights
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+ \subsection{Lights}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-Lights/Lights.tex}
+ #+END_SRC
+** Suspension
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+ \subsection{Suspension}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-Suspension/Suspension.tex}
+ #+END_SRC
+** Grabbers
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+ \subsection{Grabbers}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-Grabbers/Grabbers.tex}
+ #+END_SRC
+
+** Emergency Button
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+ \subsection{Emergency Button}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-EmergencyButton/EmergencyButton.tex}
+ #+END_SRC
+
+** Mechanical Display
+ #+BEGIN_SRC tex  :tangle yes :tangle PartsList.tex
+ \subsection{Mechanical Display}
+ \input{a-1-4-ManufacturingWorkingDrawing/b-4-PartsList/c-MechanicalDisplay/MechanicalDisplay.tex}
+ #+END_SRC
+
+
 
 ** COMMENT Cockpit
  #+BEGIN_SRC tex  :tangle yes :tangle ExplodedView.tex

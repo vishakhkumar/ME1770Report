@@ -1,5 +1,20 @@
 #+BEGIN_SRC tex :tangle  yes :tangle EmergencySwitch.tex
 \DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/EmergencySwitch.png}{\vishakh Emergency Switch View 1}
 \DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/EmergencySwitch1.png}{\vishakh Emergency Switch View 2}
+
+
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/PushButtonTop.png}{\vishakh Emergency Button Top}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/Spring2.png}{\vishakh Emergency Switch Spring}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/emergency1.png}{\vishakh Emergency Switch Main Casing}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/pod.png}{\vishakh Emergency Switch Pod Casing}
+
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgA.png}{\vishakh Stecker}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgB.png}{\vishakh Buckle Axis}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgC.png}{\vishakh Switch Base}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgD.png}{\vishakh Buckle}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgE.png}{\vishakh Nut}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgF.png}{\vishakh Plastic Axis}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgG.png}{\vishakh Emergency Dial Top}
+\DetailDesignDrawing{a-1-3-DetailDesign/b-EmergencySwitch/imgH.png}{\vishakh Emergency Dial Bottom}
 #+END_SRC
 

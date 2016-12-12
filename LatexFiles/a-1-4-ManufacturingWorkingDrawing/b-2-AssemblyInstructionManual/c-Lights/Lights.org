@@ -5,6 +5,7 @@ Place all 11 light subassemblies on top of the 11 pre manufactured holes in the 
 \AssemblyManualStepTwo{2}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Lights/step2.jpg}{
 Screw each of the 11 light screws into each of the 11 holes in order to secure the lights into the light base.
 }{\justin Assembly Step 2}
+\clearpage
 \AssemblyManualStepTwo{3}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Lights/step3.jpg}{
 Complete the assembly by securely fastening each screw.
 }{\justin Assembly Step 3}

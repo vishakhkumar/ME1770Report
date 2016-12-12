@@ -1,0 +1,65 @@
+* WorkingDrawings
+
+** Newcommand used
+#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
+\newcommand{\WorkingDrawing}[2]{
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[height=0.85\textheight]{#1}
+    \caption{#2}
+\end{figure}
+}
+
+#+END_SRC
+** Working Drawing Commands
+#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
+\subsection{Joystick} \label{sec:WorkingDrawingJoystick}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Joystick/JoyStick.tex}
+\clearpage
+\subsection{Dial} \label{sec:WorkingDrawingDial}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Dial/Dial.tex}
+\clearpage
+\subsection{Emergency Switch} \label{sec:WorkingDrawingEmergencySwitch}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-EmergencySwitch/EmergencyStop.tex}
+\clearpage
+\subsection{Seat} \label{sec:WorkingDrawingSeat}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Seat/Seat.tex}
+\clearpage
+\subsection{Antenna} \label{sec:WorkingDrawingAntenna}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Antenna/Antenna.tex}
+\clearpage
+\subsection{Chassis} \label{sec:WorkingDrawingChassis}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Chassis/Chassis.tex}
+\clearpage
+\subsection{Cabinet Drawer} \label{sec:WorkingDrawingCabinetDrawer}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-CabinetDrawer/CabinetDrawer.tex}
+\clearpage
+\subsection{Door and Hinge} \label{sec:WorkingDrawingDoorAndHinge}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-DoorAndHinge/DoorAndHinge.tex}
+\clearpage
+\subsection{Exterior Shell} \label{sec:WorkingDrawingExteriorShell}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-ExteriorShell/ExteriorShell.tex}
+\clearpage
+\subsection{Helmet} \label{sec:WorkingDrawingHelmet}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Helmet/Helmet.tex}
+\clearpage
+\subsection{Grabber} \label{sec:WorkingDrawingGrabber}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Grabber/Grabber.tex}
+\clearpage
+\subsection{Suspension} \label{sec:WorkingDrawingSuspension}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Suspension/Suspension.tex}
+\clearpage
+\subsection{3D Printer} \label{sec:WorkingDrawing3DPrinter}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-3DPrinter/3DPrinter.tex}
+\clearpage
+\subsection{Bed} \label{sec:WorkingDrawingBed}
+\input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Bed/Bed.tex}
+  #+END_SRC
+*** Cabinet Drawer  
+#+BEGIN_SRC tex :tangle yes :tangle WorkingDrawing.tex
+% \subsection{Cockpit} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Cockpit/Cockpit.tex}
+
+% \subsection{Joystick} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-Joystick/Joystick.tex}
+
+% \subsection{MechanicalDisplay} \input{a-1-4-ManufacturingWorkingDrawing/b-1-WorkingDrawing/c-MechanicalDisplay/MechanicalDisplay.tex}
+#+END_SRC

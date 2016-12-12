@@ -5,8 +5,8 @@ english, % ngerman for German
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
-%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
-%toctotoc, % Uncomment to add the main table of contents to the table of contents
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+toctotoc, % Uncomment to add the main table of contents to the table of contents
 %parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
 headsepline, % Uncomment to get a line under the header
@@ -20,7 +20,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 % Refer Bibliography Resource
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
-\usepackage[figuresleft]{rotating}
+%\usepackage[figuresleft]{rotating}
+\usepackage{tabularx,ragged2e,booktabs}
 \usepackage{placeins}
 
 \addbibresource{example.bib} % The filename of the bibliography
@@ -65,7 +66,7 @@ headsepline, % Uncomment to get a line under the header
 	%showframe, % Uncomment to show how the type block is set on the page
 }
 
-\thesistitle{GT Pioneer} 
+\thesistitle{Mars ATV} 
 % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 
 \supervisor{Dr. Raghuram \textsc{Pucha}} 
@@ -77,8 +78,14 @@ headsepline, % Uncomment to get a line under the header
 \degree{ME1770} 
 % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 
-\author{Vishakh \textsc{Kumar}} 
-% Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\author{
+Vishakh \textsc{Kumar} \\
+Auston \textsc{Ferrarer}  \\
+Asimm \textsc{Hirani}  \\
+Juan \textsc{Rodriguez}  \\
+Justin \textsc{Sackett}  \\
+} 
+ % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 
 \addresses{} 
 % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
@@ -112,17 +119,27 @@ headsepline, % Uncomment to get a line under the header
 
 \input{a-0-1-TitlePage/TitlePage.tex}
 
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+% \listoftables
+
 \mainmatter % Begin numeric (1,2,3...) page numbering
 \pagestyle{thesis} % Return the page headers back to the "thesis" style
 
-%\input{a-1-1-ProjectIdeation/ProjectIdeation.tex}
-%\input{a-1-2-PreliminaryDesign/PreliminaryDesign.tex}
-%\input{a-1-3-DetailDesign/DetailDesign.tex}
+\input{a-1-1-ProjectIdeation/ProjectIdeation.tex}
+\input{a-1-2-PreliminaryDesign/PreliminaryDesign.tex}
+\input{a-1-3-DetailDesign/DetailDesign.tex}
 \input{a-1-4-ManufacturingWorkingDrawing/ManufacturingWorkingDrawing.tex} 
-%\input{a-1-5-CheckForFunctionality/CheckForFunctionality.tex}
-%\input{a-1-6-SummaryAndConcludingRemarks/SummaryAndConcludingRemarks.tex}
+\input{a-1-5-CheckForFunctionality/CheckForFunctionality.tex}
+\input{a-1-6-SummaryAndConcludingRemarks/SummaryAndConcludingRemarks.tex}
 
 \appendix
-%  \input{a-2-Appendix/b-MeetingMinutes/MeetingMinutes.tex}
+\input{a-2-Appendix/b-MeetingMinutes/MeetingMinutes.tex}
 
 \end{document}

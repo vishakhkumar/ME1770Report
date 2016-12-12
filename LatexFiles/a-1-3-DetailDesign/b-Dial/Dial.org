@@ -1,0 +1,4 @@
+* Dial Render
+#+BEGIN_SRC tex :tangle yes :tangle Dial.tex
+\DetailDesignDrawing{/a-1-3-DetailDesign/b-Dial/Dial.png}{\vishakh Dial}
+#+END_SRC

@@ -3,6 +3,7 @@
 \AssemblyManualStepTwo{1}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Hinge/step1.png}{
 Insert the Swivel Link into the antenna base and check for tight fit.
 }{\auston Assembly Step 1}
+\clearpage
 \AssemblyManualStepTwo{2}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-Hinge/step2.png}{
 Align the holes of the antenna support, the crossbar and then swivel link. Insert pin a.
 }{\auston Assembly Step 2}

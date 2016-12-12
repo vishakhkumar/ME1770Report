@@ -1,0 +1,4 @@
+#+BEGIN_SRC tex :tangle yes :tangle Grabbers.tex
+\FunctionalComparison{a-1-5-CheckForFunctionality/b-Grabbers/c-Images/GRABBERS.JPG}{a-1-5-CheckForFunctionality/b-Grabbers/c-Images/GRABBERS2.JPG}{\justin Grabbers}
+The claws of the grabber can open and close.
+#+END_SRC

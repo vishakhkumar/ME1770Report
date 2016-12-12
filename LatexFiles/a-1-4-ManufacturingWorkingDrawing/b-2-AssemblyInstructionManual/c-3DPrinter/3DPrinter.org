@@ -6,6 +6,7 @@ Place titanium extrusion cylinder inside of blue vented housing.
 \AssemblyManualStepTwo{2}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-3DPrinter/step2.png}{
 Slide extrude cut ridges into red slide-bar.  They should be allowed to move freely.
 }{\auston Assembly Step 2}
+\clearpage
 \AssemblyManualStepTwo{3}{a-1-4-ManufacturingWorkingDrawing/b-2-AssemblyInstructionManual/c-3DPrinter/step3.jpg}{
 Place royal blue 3D printing board into 3D printed shell by placing the four extrude cut holes on the plate into the four corresponding posts.  Then slide the sidebar into the 3D printed shell. 
 }{\auston Assembly Step 3}
